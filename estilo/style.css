@@ -1,22 +1,13 @@
-body { 
+body {
   background-color: rgb(223, 210, 210);
 }
 
-.banner{
+.banner {
   height: 100px;
   align-items: center;
 }
 
-.menu {
 
-  text-align: start;
-  margin: 5px;
-  padding: 10px;
-  border: solid;
-  border-width: 1px;
-  border-color: rgb(221, 221, 221);
-
-}
 
 .nav {
   display: grid;
@@ -26,9 +17,82 @@ body {
   border-bottom: solid;
   border-color: rgb(196, 196, 196);
   border-width: 1px;
-  
+
 }
 
+.navfootgrid {
+  display: grid;
+  grid-template: auto/ auto auto auto auto auto;
+  grid-template-areas: 
+  'nfi1'
+  'nfi2'
+  'nfi3'
+  'nfi4'
+  'nfi5';
+
+}
+
+.navfootitem1 {
+  background-color: rgb(133, 21, 13);
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: medium;
+  padding: 5px;
+  grid-area: nfi1;
+
+}
+
+.navfootitem2 {
+  background-color: rgb(133, 21, 13);
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: medium;
+  padding: 5px;
+  grid-area: nfi2;
+
+}
+
+.navfootitem3 {
+  background-color: rgb(133, 21, 13);
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: medium;
+  padding: 5px;
+  grid-area: nfi3;
+
+}
+
+.navfootitem4 {
+  background-color: rgb(133, 21, 13);
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: medium;
+  padding: 5px;
+  grid-area: nfi4;
+
+}
+
+.navfootitem5 {
+  background-color: rgb(133, 21, 13);
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: medium;
+  padding: 5px;
+  grid-area: nfi5;
+
+}
+
+.h3foot {
+  color: rgb(255, 255, 255);
+  padding: 2px;
+  margin: 1px;
+
+}
 .navitem:hover {
 
   text-align: center;
@@ -46,7 +110,7 @@ body {
 .navitem {
   text-align: center;
   color: white;
-  background-color:rgb(117, 8, 0);
+  background-color: rgb(117, 8, 0);
   width: auto;
   height: auto;
   padding: 15px;
@@ -72,34 +136,10 @@ body {
 
 }
 
-
-.nav-grid-container {
-
-  display: grid;
-  grid-template-columns: 250px auto auto auto auto;
-  grid-template-rows: auto auto auto;
-  grid-template-areas:
-    'menu main main main main'
-    'menu main main main main'
-    'menu main main main main';
-  gap: 10px;
-  background-color: rgb(255, 255, 255);
-  padding: 10px;
-
-}
-
-.nav-grid-container> div {
-  background-color: rgb(255, 255, 255);
-  text-align: center;
-  padding: 15px 0;
-  font-size: 25px;
-}
-
-
 .main-layout {
   display: grid;
   grid-template: auto auto auto auto/auto auto auto auto;
- 
+
   gap: 10px;
   justify-content: space-evenly;
 
@@ -112,7 +152,8 @@ body {
   background-color: rgb(255, 248, 248);
   padding: 10px;
   border-radius: 2%;
-  
+  box-shadow: 4px 4px 10px 2px rgba(128, 128, 128, 0.411);
+
 }
 
 .portada {
@@ -121,7 +162,7 @@ body {
   width: 180;
   margin-top: 20px;
   margin-left: 35px;
-  overflow: hidden; 
+  overflow: hidden;
   border: solid;
 
 }
@@ -137,4 +178,34 @@ h1 {
   text-decoration: none;
   margin: 60px;
   padding
+}
+
+.footergrid {
+  background-color: rgb(133, 21, 13);
+  display: grid;
+  grid-template-columns: 40% 30% 30%;
+  grid-template-areas: 'sec1 sec2 sec3';
+  justify-content: space-around;
+  gap: 10px;
+  padding: 50px;
+
+}
+
+.coments {
+  grid-area: sec1;
+
+}
+
+.navsec {
+  grid-area: sec2;
+
+
+
+}
+
+.info {
+
+  grid-area: sec3;
+
+
 }
