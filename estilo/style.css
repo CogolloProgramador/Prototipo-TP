@@ -21,14 +21,16 @@ body {
 }
 
 .navfootgrid {
+  background-color: rgb(117, 8, 0);
   display: grid;
   grid-template: auto/ auto auto auto auto auto;
-  grid-template-areas: 
-  'nfi1'
-  'nfi2'
-  'nfi3'
-  'nfi4'
-  'nfi5';
+  grid-template-areas:
+    'nfi1'
+    'nfi2'
+    'nfi3'
+    'nfi4'
+    'nfi5';
+  
 
 }
 
@@ -93,11 +95,12 @@ body {
   margin: 1px;
 
 }
+
 .navitem:hover {
 
   text-align: center;
   color: white;
-  background-color: rgb(163, 41, 32);
+  background-color: rgb(145, 24, 15);
   padding: 25;
   padding-left: 15px;
   padding-right: 15px;
@@ -181,7 +184,7 @@ h1 {
 }
 
 .footergrid {
-  background-color: rgb(133, 21, 13);
+  background-color: rgb(117, 8, 0);
   display: grid;
   grid-template-columns: 40% 30% 30%;
   grid-template-areas: 'sec1 sec2 sec3';
