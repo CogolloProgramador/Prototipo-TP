@@ -48,7 +48,7 @@ ACÁ EMPIEZA EL NAV
 .nav {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: stretch;
   align-items: center;
   background-color: rgb(117, 8, 0);
   height: 60px;
@@ -56,6 +56,7 @@ ACÁ EMPIEZA EL NAV
   width: 100%;
   position: fixed;
   z-index: 3;
+  padding: 0 20px;
 }
 
 .navitem:hover {
@@ -68,6 +69,8 @@ ACÁ EMPIEZA EL NAV
   padding: 15px;
   text-transform: uppercase;
   text-decoration: none;
+  flex-grow: 1;
+  text-align: center;
 }
 
 .user a img {
@@ -84,6 +87,7 @@ ACÁ EMPIEZA EL NAV
 .carro {
   background-color: snow;
   width: 34px;
+  margin: 0 10px;
 }
 
 .searchbar {
