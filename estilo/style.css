@@ -1,28 +1,12 @@
 * {
   padding: 0;
   margin: 0;
+  text-decoration: none;
+  list-style: none;
 }
 
 body {
   background-color: rgb(223, 210, 210);
-}
-
-/*
-    BANNER ANTIGÜO
-
-.banner {
-  height: 100px;
-  align-items: center;
-  margin-top: 55px;
-}
-*/
-
-.banner {
-  height: 50px;
-  align-items: center;
-  margin: 20px; 0;
-  position: relative;
-  top: 50px;
 }
 
 /* NAV ANTIGÜO */
@@ -45,100 +29,107 @@ box-shadow: 0px 0px 7px rgb(20, 20, 20);
 ACÁ EMPIEZA EL NAV
 */
 
-.nav {
+.navbar {
   display: flex;
   flex-direction: row;
   justify-content: stretch;
   align-items: center;
   background-color: rgb(117, 8, 0);
-  height: 60px;
-  box-shadow: 0px 0px 7px rgb(20, 20, 20);
   width: 100%;
+  height: 60px;
   position: fixed;
-  z-index: 3;
-  padding: 0 20px;
-}
-
-.navitem:hover {
-  color: white;
-  background-color: rgb(163, 41, 32);
+  z-index: 2;
+  box-shadow: 0px 0px 7px rgb(20, 20, 20)
 }
 
 .navitem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 2;
   color: white;
-  padding: 15px;
-  text-transform: uppercase;
-  text-decoration: none;
-  flex-grow: 1;
-  text-align: center;
+  height: 100%;
 }
 
-.user a img {
+.navitem:hover {
+  background-color: #902020;
+}
+
+.divnav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.login {
+  margin: 0 20px;
+}
+
+#login {
+  font-size: 1em;
+  background-color: inherit;
+  border: none;
+  color: white;
+  width: 100px;
+  height: 50px;
+}
+
+#login:hover{
+  background-color: #902020;
+  cursor: pointer;
+}
+
+.userpic {
   background-color: snow;
+  padding: 3px;
   border-radius: 50%;
 }
 
-.userPic{
-  width: 32px;
-  padding: 3px;
-  margin-right: 10px;
-}
-
-.carro {
-  background-color: snow;
-  width: 34px;
-  margin: 0 10px;
-}
-
 .searchbar {
-background-color: snow;
-padding: 5px;
-border-radius: 15px;
+  display: flex;
+  flex-direction: row-reverse;
+  border: 1px solid rgba(194, 32, 32, 0.6);
+  padding: 5px;
+  border-radius: 7px;
 }
 
-.searchbar input {
+#searchbar {
+  background-color: rgb(117, 8, 0);
+  color: white;
   border: none;
   outline: 0;
-  text-indent: 15px;
-  background-color: snow;
+  text-indent: 5px;
+  border-left: 1px solid rgba(255, 255, 255, .3);
 }
 
-.searchbar button {
+::placeholder {
+  color: snow;
+  opacity: 0.4;
+}
+
+#submitsearchbar {
+  background-color: rgb(117, 8, 0);
   border: none;
-  outline: 0;
-  background-color: snow;
+  padding: 0 10px;
 }
 
-.searchbar button img {
-  width: 24px;
-  background-size: contain;
+#submitsearchbar:hover {
+  cursor: pointer;
 }
 
 /*
+    ACÁ TERMINA EL NAV
 
-.navitem1 {
-
-  grid-area: menu;
-
-
-
-}
-
-.navitem2 {
-
-  grid-area: main;
-  justify-content: left;
-  margin-top: 2px;
-
-}
+    ACÁ EMPIEZA EL MAIN
 */
 
-.carousel-item img {
-  height: 50vh;
-  object-fit: cover;
+.banner {
+  height: 50px;
+  align-items: center;
+  margin: 20px; 0;
   position: relative;
-  top: 40px;
-
+  top: 50px;
 }
 
 .main-layout {
@@ -181,86 +172,70 @@ border-radius: 15px;
 }
 
 /*
+      ACÁ TERMINA EL MAIN
+
       ACÁ INICIA EL FOOTER
  */
 
 footer {
   background-color: rgb(117, 8, 0);
-  padding-top: 3px;
-  margin-top: 15px;
-}
-
-.logofooter {
-  width: 64px;
-  background-color: snow;
-  border-radius: 20%;
-  padding: 5px;
-  margin-right: 10px;
+  margin-top: 40px;
 }
 
 .brandfooter {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
+  padding: 15px 0;
   color: white;
-  text-decoration: none;
-  margin: 10px 0;
+  text-indent: 20px;
   font-size: 3em;
-  border-bottom: 3px solid #85150D;
+  border-top: 1px solid rgb(194, 32, 32);
 }
 
-.brandfooter:hover {
-  text-decoration: none;
-  color: white;
+.brandfooter img {
+  background-color: snow;
+  padding: 2px 6px;
+  border-radius: 50%;
 }
 
-.list {
-  display: flex;
+#footerlist {
+  display:flex;
+  flex-direction: row;
   justify-content: space-around;
   align-items: flex-start;
+  padding: 20px 0;
+  border-top: 2px solid rgb(194, 32, 32);
+  border-bottom: 2px solid rgb(194, 32, 32);
 }
 
-.list ul {
-  padding-inline-start: unset;
+.ftr-list {
+  color: white;
+  font-size: 1.2em;
 }
 
-.list ul li {
-  list-style: none;
+.ftr-category {
+  color: white;
+  font-size: 1.4em;
+  margin-bottom: 8px;
 }
 
-.list ul a {
+#derechos {
   display: flex;
   justify-content: center;
-  text-decoration: none;
   color: white;
+  padding: 10px 0;
 }
-
-footer p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  padding: 4px 0;
-  border-top: 3px solid #85150D;
-}
-
-/* .mininav {
-  text-decoration: none;
-  text-decoration: none;
-  margin: 60px;
-  padding
-} */
 
 /*sobre nosotros*/
 
 h1 {
   color: rgb(133, 21, 13);
   text-align: center;
-  text-decoration: underline;
 }
 
 .tituloaboutus {
-  text-decoration: none;
   font-size: 4em;
   font-weight: lighter;
   text-align: center;

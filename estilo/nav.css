@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background-color: rgb(223, 210, 210);
+}
+
+.test {
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  align-items: center;
+  background-color: rgb(117, 8, 0);
+  width: 100%;
+  height: 60px;
+  /* width: 100%; */
+}
+
+.navitem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  color: white;
+  height: 100%;
+}
+
+.navitem:hover {
+  background-color: #902020;
+}
+
+.divnav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.login {
+  margin: 0 20px;
+}
+
+#login {
+  font-size: 1em;
+  background-color: inherit;
+  border: none;
+  color: white;
+  width: 100px;
+  height: 50px;
+}
+
+#login:hover{
+  background-color: #902020;
+  cursor: pointer;
+}
+
+.userpic {
+  background-color: snow;
+  padding: 3px;
+  border-radius: 50%;
+}
+
+.searchbar {
+  display: flex;
+  flex-direction: row-reverse;
+  border: 1px solid rgba(194, 32, 32, 0.6);
+  padding: 5px;
+  border-radius: 7px;
+}
+
+#searchbar {
+  background-color: rgb(117, 8, 0);
+  color: white;
+  border: none;
+  outline: 0;
+  text-indent: 5px;
+  border-left: 1px solid rgba(255, 255, 255, .3);
+}
+
+::placeholder {
+  color: snow;
+  opacity: 0.4;
+}
+
+#submitsearchbar {
+  background-color: rgb(117, 8, 0);
+  border: none;
+  padding: 0 10px;
+}
