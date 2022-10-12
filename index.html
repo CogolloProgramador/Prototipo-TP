@@ -23,9 +23,7 @@
       <a class="navitem" href="contact.html">CONTACTO</a>
       <div class="divnav">
         <img class="userpic" src="./imagenes/user_blank.png" alt="" width="32px">
-        <form class="login" action="index.html" method="post">
-          <button id="login" type="button" name="button">INVITADO</button>
-        </form>
+        <button id="mostrarlogin" type="button" name="button">INVITADO</button>
         <img class="userpic" src="./imagenes/carro.png" alt="" width="24px">
       </div>
       <div class="divnav">
@@ -54,6 +52,36 @@
       <div class="box"><img class="portada" src="./imagenes/ej-portada.jpg" alt="portada"></div>
 
     </section>
+
+    <div class="popup">
+      <div class="close-btn">&times;</div>
+      <div class="form">
+        <h2>Inicia Sesión</h2>
+        <div class="form-element">
+          <label for="email">Email</label>
+          <input id="email" type="text" name="" value="" placeholder="example@email.com">
+        </div>
+        <div class="form-element">
+          <label for="password">Contraseña</label>
+          <input id="password" type="password" name="" value="" placeholder="****">
+        </div>
+        <div class="form-element">
+          <input id="recordar" type="checkbox" name="" value="">
+          <label for="remember-me">Recordar Datos</label>
+        </div>
+        <div class="form-element">
+          <a href="#">Olvidaste la contraseña?</a>
+        </div>
+        <div class="form-element">
+          <button type="button" name="button">Iniciar Sesión</button>
+        </div>
+        <div class="form-element-redirect">
+          <p>No tienes cuenta? </p><a href="#">Crea Una!</a>
+        </div>
+      </div>
+    </div>
+
+
   </main>
 
   <footer>
@@ -99,6 +127,9 @@
     </div>
     <p id="derechos">Los Pibes © 2022 · Codo a Codo 22522</p>
   </footer>
+  <div class="cortina">
+
+  </div>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
@@ -108,6 +139,16 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
+  <script type="text/javascript">
+    document.querySelector("#mostrarlogin").addEventListener("click", function(){
+      document.querySelector(".popup").classList.add("active");
+      document.querySelector(".cortina").classList.add("curtainActive");
+    });
+    document.querySelector(".popup .close-btn").addEventListener("click", function(){
+      document.querySelector(".popup").classList.remove("active");
+      document.querySelector(".cortina").classList.remove("curtainActive");
+    });
+  </script>
 </body>
 
 </html>
