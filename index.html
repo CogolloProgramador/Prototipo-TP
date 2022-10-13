@@ -8,7 +8,11 @@
   <title>Prototipo TP</title>
   <link rel="stylesheet" href="./estilo/style.css">
   <link rel="icon" href="./imagenes/favicon.ico">
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica+SC&family=Special+Elite&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./estilo/mediaQueries.css">
 </head>
 
 <body>
@@ -22,14 +26,32 @@
       <a class="navitem" href="about.html">NOSOTROS</a>
       <a class="navitem" href="contact.html">CONTACTO</a>
       <div class="divnav">
+
+        <label for="menu" class="nav_label">
+          <img class="menuHamburguesa" src="./imagenes/menu.png" alt="menu">
+        </label>
+        <input type="checkbox" id="menu" class="nav_input">
+        <div class="nav_menu">
+          <a href="index.html" class="nav_item">Inicio</a>
+          <a href="" class="nav_item">Catálogo</a>
+          <a href="about.html" class="nav_item">Nosotros</a>
+          <a href="" class="nav_item">Contacto</a>
+
+
+        </div>
+
         <img class="userpic" src="./imagenes/user_blank.png" alt="" width="32px">
         <button id="mostrarlogin" type="button" name="button">INVITADO</button>
+        <button id="mostrarlogin600px" type="button" name="button"> <img class="userpic1"
+            src="./imagenes/user_blank.png" alt="" width="32px"></button>
         <img class="userpic" src="./imagenes/carro.png" alt="" width="24px">
+        <img class="userpic2" src="./imagenes/carro.png" alt="" width="24px">
       </div>
       <div class="divnav">
         <form class="searchbar" action="index.html" method="post">
           <input id="searchbar" type="text" name="" value="" placeholder="Buscar...">
-          <button id="submitsearchbar" type="button" name="button"><img src="./imagenes/lupa.png" alt="" width="24px"></button>
+          <button id="submitsearchbar" type="button" name="button"><img src="./imagenes/lupa.png" alt=""
+              width="24px"></button>
         </form>
       </div>
     </nav>
@@ -85,10 +107,13 @@
   </main>
 
   <footer>
-    <a class="brandfooter" href="#"><img class="logofooter" src="./imagenes/logo.png" alt="" width="80px">LA HOJA EN BLANCO.</a>
+    <a class="brandfooter" href="#"><img class="logofooter" src="./imagenes/logo.png" alt="" width="80px">LA HOJA EN
+      BLANCO.</a>
     <div id="footerlist">
       <ul>
-        <li><p class="ftr-category">Universitarios</p></li>
+        <li>
+          <p class="ftr-category">Universitarios</p>
+        </li>
         <li><a class="ftr-list" href="">Interiorismo</a></li>
         <li><a class="ftr-list" href="">Cocina</a></li>
         <li><a class="ftr-list" href="">Pintura</a></li>
@@ -97,7 +122,9 @@
         <li><a class="ftr-list" href="">Música</a></li>
       </ul>
       <ul>
-        <li><p class="ftr-category">Pasatiempo</p></li>
+        <li>
+          <p class="ftr-category">Pasatiempo</p>
+        </li>
         <li><a class="ftr-list" href="">Economía</a></li>
         <li><a class="ftr-list" href="">Fisica y Química</a></li>
         <li><a class="ftr-list" href="">Historia</a></li>
@@ -107,7 +134,9 @@
         <li><a class="ftr-list" href="">Medicina</a></li>
       </ul>
       <ul>
-        <li><p class="ftr-category">Literatura</p></li>
+        <li>
+          <p class="ftr-category">Literatura</p>
+        </li>
         <li><a class="ftr-list" href="">Fantasía</a></li>
         <li><a class="ftr-list" href="">Policiales</a></li>
         <li><a class="ftr-list" href="">Drama</a></li>
@@ -117,7 +146,9 @@
         <li><a class="ftr-list" href="">Infantiles</a></li>
       </ul>
       <ul>
-        <li><p class="ftr-category">Nosotros</p></li>
+        <li>
+          <p class="ftr-category">Nosotros</p>
+        </li>
         <li><a class="ftr-list" href="">Inicio</a></li>
         <li><a class="ftr-list" href="">Categorías</a></li>
         <li><a class="ftr-list" href="">Quiénes Somos</a></li>
@@ -140,14 +171,19 @@
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
   <script type="text/javascript">
-    document.querySelector("#mostrarlogin").addEventListener("click", function(){
+    document.querySelector("#mostrarlogin").addEventListener("click", function () {
       document.querySelector(".popup").classList.add("active");
       document.querySelector(".cortina").classList.add("curtainActive");
     });
-    document.querySelector(".popup .close-btn").addEventListener("click", function(){
+    document.querySelector(".popup .close-btn").addEventListener("click", function () {
       document.querySelector(".popup").classList.remove("active");
       document.querySelector(".cortina").classList.remove("curtainActive");
     });
+    document.querySelector("#mostrarlogin600px").addEventListener("click", function () {
+      document.querySelector(".popup").classList.add("active");
+      document.querySelector(".cortina").classList.add("curtainActive");
+    });
+
   </script>
 </body>
 

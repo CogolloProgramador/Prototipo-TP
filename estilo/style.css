@@ -4,6 +4,7 @@
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
+  font-family: 'Special Elite', 'IM Fell DW Pica SC', serif;
 }
 
 body {
@@ -17,7 +18,8 @@ body {
 .banner {
   height: 50px;
   align-items: center;
-  margin: 20px; 0;
+  margin: 20px;
+  0;
   position: relative;
   top: 50px;
 }
@@ -27,17 +29,21 @@ body {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-around;
+  gap: 80px;
   align-items: center;
+  margin-left: 110px;
+  margin-right: 110px;
+  margin-top: 10px;
 }
 
-.main-layout {
+/*.main-layout {
   display: grid;
   grid-template: auto auto auto auto/auto auto auto auto;
 
   gap: 10px;
   justify-content: space-evenly;
 
-}
+}*/
 
 .box {
   width: 200px;
@@ -70,6 +76,7 @@ body {
 h1 {
   color: rgb(133, 21, 13);
   text-align: center;
+  margin-top: 40px;
 }
 
 .tituloaboutus {
@@ -109,6 +116,7 @@ h1 {
   margin-left: 10%;
   margin-top: 20px;
   margin-bottom: 20px;
+  line-height: 1.5em;
 }
 
 .seccion p {
@@ -117,7 +125,7 @@ h1 {
   font-weight: lighter;
 }
 
-p span {
+.primerp {
   color: rgb(133, 21, 13);
   font-weight: lighter;
 }
@@ -126,6 +134,7 @@ p span {
   height: 4px;
   width: 70px !important;
   margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 
@@ -164,9 +173,7 @@ p span {
   justify-content: center;
 }
 
-.registro-container .registro-datos .registro-section {
-
-}
+.registro-container .registro-datos .registro-section {}
 
 /* TERMINA 'REGISTRO DE USUARIO' */
 
@@ -228,6 +235,22 @@ ACÁ EMPIEZA EL NAV
   border-radius: 50%;
 }
 
+.userpic1 {
+  display: none;
+}
+
+.userpic2 {
+  display: none;
+}
+
+#mostrarlogin600px {
+  display: none;
+}
+
+.menuHamburguesa {
+  display: none;
+}
+
 .searchbar {
   display: flex;
   flex-direction: row-reverse;
@@ -260,6 +283,18 @@ ACÁ EMPIEZA EL NAV
   cursor: pointer;
 }
 
+.nav_label {
+  display: none;
+}
+
+#menu {
+  display: none;
+}
+
+.nav_menu {
+  display: none;
+}
+
 /*
     ACÁ TERMINA EL NAV
 
@@ -267,54 +302,54 @@ ACÁ EMPIEZA EL NAV
 */
 
 footer {
-background-color: rgb(117, 8, 0);
-margin-top: 40px;
+  background-color: rgb(117, 8, 0);
+  margin-top: 40px;
 }
 
 .brandfooter {
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 15px 0;
-color: white;
-text-indent: 20px;
-font-size: 3em;
-border-top: 1px solid rgb(194, 32, 32);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0;
+  color: white;
+  text-indent: 20px;
+  font-size: 3em;
+  border-top: 1px solid rgb(194, 32, 32);
 }
 
 .brandfooter img {
-background-color: snow;
-padding: 2px 6px;
-border-radius: 50%;
+  background-color: snow;
+  padding: 2px 6px;
+  border-radius: 50%;
 }
 
 #footerlist {
-display:flex;
-flex-direction: row;
-justify-content: space-around;
-align-items: flex-start;
-padding: 20px 0;
-border-top: 2px solid rgb(194, 32, 32);
-border-bottom: 2px solid rgb(194, 32, 32);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 20px 0;
+  border-top: 2px solid rgb(194, 32, 32);
+  border-bottom: 2px solid rgb(194, 32, 32);
 }
 
 .ftr-list {
-color: white;
-font-size: 1.2em;
+  color: white;
+  font-size: 1.2em;
 }
 
 .ftr-category {
-color: white;
-font-size: 1.4em;
-margin-bottom: 8px;
+  color: white;
+  font-size: 1.4em;
+  margin-bottom: 8px;
 }
 
 #derechos {
-display: flex;
-justify-content: center;
-color: white;
-padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding: 10px 0;
 }
 
 /*
@@ -335,7 +370,7 @@ padding: 10px 0;
   padding: 30px;
   background-color: #902020;
   border-radius: 8px;
-  box-shadow: 2px 2px 14px 8px rgba(255,255,255,.1);
+  box-shadow: 2px 2px 14px 8px rgba(255, 255, 255, .1);
 }
 
 .popup.active {

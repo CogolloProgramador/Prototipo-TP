@@ -2,121 +2,204 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prototipo TP</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="icon" href="/imagenes/favicon.ico">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link rel="stylesheet" href="./estilo/style.css">
-
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prototipo TP</title>
+  <link rel="stylesheet" href="./estilo/style.css">
+  <link rel="icon" href="./imagenes/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica+SC&family=Special+Elite&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./estilo/mediaQueries.css">
 </head>
 
 <body>
 
-    <header>
-      <nav class="navbar">
-        <a class="navitem" href="index.html">INICIO</a>
-        <a class="navitem" href="">CATÁLOGO</a>
-        <a class="navitem" href="about.html">NOSOTROS</a>
-        <a class="navitem" href="contact.html">CONTACTO</a>
-        <!-- <div class="divnav">
-          <img class="userpic" src="./imagenes/user_blank.png" alt="" width="32px">
-          <button id="mostrarlogin" type="button" name="button">INVITADO</button>
-          <img class="userpic" src="./imagenes/carro.png" alt="" width="24px">
-        </div> -->
-        <div class="divnav">
-          <form class="searchbar" action="index.html" method="post">
-            <input id="searchbar" type="text" name="" value="" placeholder="Buscar...">
-            <button id="submitsearchbar" type="button" name="button"><img src="./imagenes/lupa.png" alt="" width="24px"></button>
-          </form>
-        </div>
-      </nav>
-        <img class="banner" src="./imagenes/BANNER.png" alt="Libreria la hoja en blanco">
-    </header>
+  <header>
+    <nav class="navbar">
+      <a class="navitem" href="index.html">INICIO</a>
+      <a class="navitem" href="">CATÁLOGO</a>
+      <a class="navitem" href="about.html">NOSOTROS</a>
+      <a class="navitem" href="contact.html">CONTACTO</a>
+      <div class="divnav">
 
-    <main>
-        <div class="aboutus">
-            <h1 class="tituloaboutus">Quiénes somos</h1>
-        </div>
-        <div class="container1">
-            <div class="seccion">
-                <div class="texto">
-                    <h2>Un grupo de programadores</h2>
-                    <img class="linearoja" src="./imagenes/linearoja.png" alt="linearoja">
-                    <p> <span class=" primerp">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo officia modi velit iste iure,
-                            soluta rerum eos, voluptatem mollitia at natus dignissimos minus autem aliquid.</span><br>
-
-                        Exercitationem laudantium est ad, quisquam, similique delectus perferendis voluptates hic
-                        consequatur perspiciatis cum, ut dolor odit consequuntur nesciunt impedit earum voluptatem
-                        quaerat nam vel ab culpa asperiores. Dolorum, accusantium dolore. </p>
-
-                </div>
-
-                <img class="foto" src="./imagenes/quienes somos.jpg" alt="libros">
-
-            </div>
-            <div class="seccion">
-
-                <img class="foto" src="./imagenes/filosofia.jpg" alt="celular con libro">
-                <div class="texto">
-                    <h2>Nuestra filosofía</h2>
-                    <img class="linearoja" src="./imagenes/linearoja.png" alt="linearoja">
-                    <p> <span class=" primerp">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo officia modi velit iste iure,
-                            soluta rerum eos, voluptatem mollitia at natus dignissimos minus autem aliquid.</span><br>
-
-                        Exercitationem laudantium est ad, quisquam, similique delectus perferendis voluptates hic
-                        consequatur perspiciatis cum, ut dolor odit consequuntur nesciunt impedit earum voluptatem
-                        quaerat nam vel ab culpa asperiores. Dolorum, accusantium dolore. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                </div>
-            </div>
+        <label for="menu" class="nav_label">
+          <img class="menuHamburguesa" src="./imagenes/menu.png" alt="menu">
+        </label>
+        <input type="checkbox" id="menu" class="nav_input">
+        <div class="nav_menu">
+          <a href="index.html" class="nav_item">Inicio</a>
+          <a href="" class="nav_item">Catálogo</a>
+          <a href="about.html" class="nav_item">Nosotros</a>
+          <a href="" class="nav_item">Contacto</a>
 
 
         </div>
-        <div class="seccion">
-            <div class="texto">
-                <h2>Nuestra historia</h2>
-                <img class="linearoja" src="./imagenes/linearoja.png" alt="linearoja">
-                <p> <span class=" primerp">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo officia modi velit iste iure,
-                        soluta rerum eos, voluptatem mollitia at natus dignissimos minus autem aliquid.</span><br>
 
-                    Exercitationem laudantium est ad, quisquam, similique delectus perferendis voluptates hic
-                    consequatur perspiciatis cum, ut dolor odit consequuntur nesciunt impedit earum voluptatem
-                    quaerat nam vel ab culpa asperiores. Dolorum, accusantium dolore.Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        <img class="userpic" src="./imagenes/user_blank.png" alt="" width="32px">
+        <button id="mostrarlogin" type="button" name="button">INVITADO</button>
+        <button id="mostrarlogin600px" type="button" name="button"> <img class="userpic1"
+            src="./imagenes/user_blank.png" alt="" width="32px"></button>
+        <img class="userpic" src="./imagenes/carro.png" alt="" width="24px">
+        <img class="userpic2" src="./imagenes/carro.png" alt="" width="24px">
+      </div>
+      <div class="divnav">
+        <form class="searchbar" action="index.html" method="post">
+          <input id="searchbar" type="text" name="" value="" placeholder="Buscar...">
+          <button id="submitsearchbar" type="button" name="button"><img src="./imagenes/lupa.png" alt=""
+              width="24px"></button>
+        </form>
+      </div>
+    </nav>
 
-            </div>
-            <img class="foto" src="./imagenes/historia.jpg" alt="celular con libro">
+    <img class="banner" src="./imagenes/BANNERV2.png" alt="Libreria la hoja en blanco">
+  </header>
+
+  <main>
+    <div class="aboutus">
+      <h1 class="tituloaboutus">Quiénes somos</h1>
+    </div>
+    <div class="container1">
+      <div class="seccion">
+        <div class="texto">
+          <h2>Un grupo de programadores</h2>
+          <img class="linearoja" src="./imagenes/linearoja.png" alt="linearoja">
+          <p> <span class=" primerp">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo officia modi velit iste iure,
+              soluta rerum eos, voluptatem mollitia at natus dignissimos minus autem aliquid.</span><br>
+
+            Exercitationem laudantium est ad, quisquam, similique delectus perferendis voluptates hic
+            consequatur perspiciatis cum, ut dolor odit consequuntur nesciunt impedit earum voluptatem
+            quaerat nam vel ab culpa asperiores. Dolorum, accusantium dolore. </p>
 
         </div>
 
+        <img class="foto" src="./imagenes/quienes somos.jpg" alt="libros">
+
+      </div>
+      <div class="seccion">
+
+        <img class="foto" src="./imagenes/filosofia.jpg" alt="celular con libro">
+        <div class="texto">
+          <h2>Nuestra filosofía</h2>
+          <img class="linearoja" src="./imagenes/linearoja.png" alt="linearoja">
+          <p> <span class=" primerp">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo officia modi velit iste iure,
+              soluta rerum eos, voluptatem mollitia at natus dignissimos minus autem aliquid.</span><br>
+
+            Exercitationem laudantium est ad, quisquam, similique delectus perferendis voluptates hic
+            consequatur perspiciatis cum, ut dolor odit consequuntur nesciunt impedit earum voluptatem
+            quaerat nam vel ab culpa asperiores. Dolorum, accusantium dolore. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit.</p>
         </div>
+      </div>
+
+
+    </div>
+    <div class="seccion">
+      <div class="texto">
+        <h2>Nuestra historia</h2>
+        <img class="linearoja" src="./imagenes/linearoja.png" alt="linearoja">
+        <p> <span class=" primerp">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo officia modi velit iste iure,
+            soluta rerum eos, voluptatem mollitia at natus dignissimos minus autem aliquid.</span><br>
+
+          Exercitationem laudantium est ad, quisquam, similique delectus perferendis voluptates hic
+          consequatur perspiciatis cum, ut dolor odit consequuntur nesciunt impedit earum voluptatem
+          quaerat nam vel ab culpa asperiores. Dolorum, accusantium dolore.Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. </p>
+
+      </div>
+      <img class="foto" src="./imagenes/historia.jpg" alt="celular con libro">
+
+    </div>
+
+    </div>
 
 
 
-        <section class="main-layout">
+    <section class="main-layout">
 
 
 
-        </section>
-    </main>
-    <footer>
+    </section>
+  </main>
+  <footer>
+    <a class="brandfooter" href="#"><img class="logofooter" src="./imagenes/logo.png" alt="" width="80px">LA HOJA EN
+      BLANCO.</a>
+    <div id="footerlist">
+      <ul>
+        <li>
+          <p class="ftr-category">Universitarios</p>
+        </li>
+        <li><a class="ftr-list" href="">Interiorismo</a></li>
+        <li><a class="ftr-list" href="">Cocina</a></li>
+        <li><a class="ftr-list" href="">Pintura</a></li>
+        <li><a class="ftr-list" href="">Decoracion</a></li>
+        <li><a class="ftr-list" href="">Fotografía</a></li>
+        <li><a class="ftr-list" href="">Música</a></li>
+      </ul>
+      <ul>
+        <li>
+          <p class="ftr-category">Pasatiempo</p>
+        </li>
+        <li><a class="ftr-list" href="">Economía</a></li>
+        <li><a class="ftr-list" href="">Fisica y Química</a></li>
+        <li><a class="ftr-list" href="">Historia</a></li>
+        <li><a class="ftr-list" href="">Informática</a></li>
+        <li><a class="ftr-list" href="">Arquitectura</a></li>
+        <li><a class="ftr-list" href="">Ingeniería</a></li>
+        <li><a class="ftr-list" href="">Medicina</a></li>
+      </ul>
+      <ul>
+        <li>
+          <p class="ftr-category">Literatura</p>
+        </li>
+        <li><a class="ftr-list" href="">Fantasía</a></li>
+        <li><a class="ftr-list" href="">Policiales</a></li>
+        <li><a class="ftr-list" href="">Drama</a></li>
+        <li><a class="ftr-list" href="">Ciencia-Ficción</a></li>
+        <li><a class="ftr-list" href="">Misterio</a></li>
+        <li><a class="ftr-list" href="">Comedia Romántica</a></li>
+        <li><a class="ftr-list" href="">Infantiles</a></li>
+      </ul>
+      <ul>
+        <li>
+          <p class="ftr-category">Nosotros</p>
+        </li>
+        <li><a class="ftr-list" href="">Inicio</a></li>
+        <li><a class="ftr-list" href="">Categorías</a></li>
+        <li><a class="ftr-list" href="">Quiénes Somos</a></li>
+        <li><a class="ftr-list" href="">Contacto</a></li>
+        <li><a class="ftr-list" href="">Perfil</a></li>
+      </ul>
+    </div>
+    <p id="derechos">Los Pibes © 2022 · Codo a Codo 22522</p>
+  </footer>
+  <div class="cortina">
 
-    </footer>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script type="text/javascript">
+    document.querySelector("#mostrarlogin").addEventListener("click", function () {
+      document.querySelector(".popup").classList.add("active");
+      document.querySelector(".cortina").classList.add("curtainActive");
+    });
+    document.querySelector(".popup .close-btn").addEventListener("click", function () {
+      document.querySelector(".popup").classList.remove("active");
+      document.querySelector(".cortina").classList.remove("curtainActive");
+    });
+  </script>
 </body>
 
 </html>

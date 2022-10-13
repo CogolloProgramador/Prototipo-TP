@@ -1,0 +1,209 @@
+@media only screen and (max-width: 700px) {
+
+    /*MAIN*/
+    .main-layout {
+        gap: 5px;
+        align-items: center;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .banner {
+        width: 90%;
+        height: fit-content;
+    }
+
+    /*NAV*/
+    
+    
+    .navitem {
+        display: none;
+    }
+
+    .navitem:hover {
+        background-color: #902020;
+    }
+
+    .divnav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-grow: 1;
+        gap: 20px
+    }
+
+    #mostrarlogin {
+        display: none;
+
+    }
+
+    #mostrarlogin:hover {
+        background-color: #902020;
+    }
+
+    .userpic {
+        display: none;
+    }
+
+    .userpic1 {
+        display: flex;
+        background-color: snow;
+        padding: 3px;
+        border-radius: 50%;
+        width: 32px;
+        cursor: pointer;
+    }
+
+    .userpic2 {
+        display: flex;
+        background-color: snow;
+        padding: 3px;
+        border-radius: 50%;
+        width: 32px;
+    }
+
+    #mostrarlogin600px {
+        display: flex;
+        border-radius: 50%;
+        border: none;
+    }
+
+    .menuHamburguesa {
+        display: flex;
+        width: 40px;
+        padding: 3px;
+        border-radius: 50%;
+    }
+
+
+    #menu {
+        display: none;
+    }
+
+    .nav_menu {
+        display: grid;
+        grid-auto-flow: row;
+        gap: 3em;
+    }
+
+    .nav_item {
+        color: snow;
+        text-decoration: none;
+    }
+
+    .nav_label {
+        display: block;
+        cursor: pointer;
+    }
+
+    .nav_menu {
+        position: fixed;
+        top: 60px;
+        bottom: 0;
+        background-color: #902020;
+        width: 100%;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        gap: 70px;
+        flex-direction: column;
+        align-items: center;
+        clip-path: circle(0 at center);
+        font-size: 1.2em;
+    }
+
+    .nav_input:checked+.nav_menu {
+        clip-path: circle(100% at center);
+    }
+
+    /* ACÁ TERMINA EL NAV*/
+
+    /* POPUP*/
+    .popup {
+        width: 55vw;
+    }
+/*termina POPUP*/
+
+    /*FOOTER*/
+
+
+    .brandfooter {
+        text-align: center;
+    }
+
+    .logofooter {
+        margin-left: 50px;
+    }
+
+    .brandfooter img {
+        background-color: snow;
+        padding: 2px 6px;
+       
+    }
+
+    #footerlist {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        text-align: center;
+    
+    }
+
+    .ftr-list {
+        color: white;
+        font-size: 1.2em;
+        line-height:1.2em;
+    }
+  
+
+    .ftr-category {
+        color: white;
+        font-size: 1.4em;
+        margin-bottom: 8px;
+    }
+/*About*/
+
+  
+  .tituloaboutus {
+    font-size: 3em;
+ 
+  }
+  
+  .seccion h2 {
+    color: rgb(133, 21, 13);
+    font-size: 2em;
+    
+  }
+  
+  .container1 {
+    display: block;
+  
+  }
+  
+  .seccion {
+    display: flex;
+    flex-direction: column;
+    border-width: 2px;
+    margin: 40px 30px 60px 30px;
+    background-color: rgba(133, 21, 13, 0.066);
+  
+  }
+  
+  
+  .texto {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-left: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 1.5em;
+  }
+  
+
+  .foto {
+    width: 100%;
+    
+  }
+  
