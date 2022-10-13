@@ -18,20 +18,24 @@
 <body>
 
     <header>
-
-
-        <nav class="nav">
-
-            <a class="navitem" href="index.html">INICIO</a>
-            <a class="navitem" href="">seccion 2</a>
-            <a class="navitem" href="about.html">Quiénes somos</a>
-            <a class="navitem" href="">Seccion 4</a>
-            <a class="navitem" href="">Seccion 5</a>
-
-
-        </nav>
-        <img class="banner" src="/imagenes/BANNER.png" alt="Libreria la hoja en blanco">
-
+      <nav class="navbar">
+        <a class="navitem" href="index.html">INICIO</a>
+        <a class="navitem" href="">CATÁLOGO</a>
+        <a class="navitem" href="about.html">NOSOTROS</a>
+        <a class="navitem" href="contact.html">CONTACTO</a>
+        <!-- <div class="divnav">
+          <img class="userpic" src="./imagenes/user_blank.png" alt="" width="32px">
+          <button id="mostrarlogin" type="button" name="button">INVITADO</button>
+          <img class="userpic" src="./imagenes/carro.png" alt="" width="24px">
+        </div> -->
+        <div class="divnav">
+          <form class="searchbar" action="index.html" method="post">
+            <input id="searchbar" type="text" name="" value="" placeholder="Buscar...">
+            <button id="submitsearchbar" type="button" name="button"><img src="./imagenes/lupa.png" alt="" width="24px"></button>
+          </form>
+        </div>
+      </nav>
+        <img class="banner" src="./imagenes/BANNER.png" alt="Libreria la hoja en blanco">
     </header>
 
     <main>
@@ -102,7 +106,7 @@
         </section>
     </main>
     <footer>
-      
+
     </footer>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"

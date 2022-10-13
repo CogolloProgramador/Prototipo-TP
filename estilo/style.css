@@ -3,122 +3,15 @@
   margin: 0;
   text-decoration: none;
   list-style: none;
+  box-sizing: border-box;
 }
 
 body {
   background-color: rgb(223, 210, 210);
 }
 
-/* NAV ANTIGÜO */
-/* .nav {
-display: grid;
-grid-template-columns: auto auto auto auto auto 400px;
-margin: 0px;
-background-color: rgb(133, 21, 13);
-border-bottom: solid;
-border-color: rgb(196, 196, 196);
-border-width: 0px;
-position: fixed;
-width: 100%;
-z-index: 15;
-box-shadow: 0px 0px 7px rgb(20, 20, 20);
-} */
-
-
 /*
-ACÁ EMPIEZA EL NAV
-*/
-
-.navbar {
-  display: flex;
-  flex-direction: row;
-  justify-content: stretch;
-  align-items: center;
-  background-color: rgb(117, 8, 0);
-  width: 100%;
-  height: 60px;
-  position: fixed;
-  z-index: 2;
-  box-shadow: 0px 0px 7px rgb(20, 20, 20)
-}
-
-.navitem {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 2;
-  color: white;
-  height: 100%;
-}
-
-.navitem:hover {
-  background-color: #902020;
-}
-
-.divnav {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-grow: 1;
-}
-
-#mostrarlogin {
-  font-size: 1em;
-  background-color: inherit;
-  border: none;
-  color: white;
-  width: 100px;
-  height: 50px;
-  margin: 0 20px;
-  cursor: pointer;
-}
-
-#mostrarlogin:hover {
-  background-color: #902020;
-}
-
-.userpic {
-  background-color: snow;
-  padding: 3px;
-  border-radius: 50%;
-}
-
-.searchbar {
-  display: flex;
-  flex-direction: row-reverse;
-  border: 1px solid rgba(194, 32, 32, 0.6);
-  padding: 5px;
-  border-radius: 7px;
-}
-
-#searchbar {
-  background-color: rgb(117, 8, 0);
-  color: white;
-  border: none;
-  outline: 0;
-  text-indent: 5px;
-  border-left: 1px solid rgba(255, 255, 255, .3);
-}
-
-::placeholder {
-  color: snow;
-  opacity: 0.4;
-}
-
-#submitsearchbar {
-  background-color: rgb(117, 8, 0);
-  border: none;
-  padding: 0 10px;
-}
-
-#submitsearchbar:hover {
-  cursor: pointer;
-}
-
-/*
-    ACÁ TERMINA EL NAV
-
-    ACÁ EMPIEZA EL MAIN
+    ACÁ EMPIEZA EL INDEX MAIN
 */
 
 .banner {
@@ -169,61 +62,8 @@ ACÁ EMPIEZA EL NAV
 }
 
 /*
-      ACÁ TERMINA EL MAIN
-
-      ACÁ INICIA EL FOOTER
- */
-
-footer {
-  background-color: rgb(117, 8, 0);
-  margin-top: 40px;
-}
-
-.brandfooter {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 15px 0;
-  color: white;
-  text-indent: 20px;
-  font-size: 3em;
-  border-top: 1px solid rgb(194, 32, 32);
-}
-
-.brandfooter img {
-  background-color: snow;
-  padding: 2px 6px;
-  border-radius: 50%;
-}
-
-#footerlist {
-  display:flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: flex-start;
-  padding: 20px 0;
-  border-top: 2px solid rgb(194, 32, 32);
-  border-bottom: 2px solid rgb(194, 32, 32);
-}
-
-.ftr-list {
-  color: white;
-  font-size: 1.2em;
-}
-
-.ftr-category {
-  color: white;
-  font-size: 1.4em;
-  margin-bottom: 8px;
-}
-
-#derechos {
-  display: flex;
-  justify-content: center;
-  color: white;
-  padding: 10px 0;
-}
+      ACÁ TERMINA EL INDEX MAIN
+*/
 
 /*sobre nosotros*/
 
@@ -302,6 +142,181 @@ p span {
   transition: 0.7s;
 }
 
+/* TERMINA 'SOBRE NOSOTROS' */
+
+/* EMPIEZA 'REGISTRO DE USUARIO' */
+
+.registro-main {
+  padding-top: 60px;
+}
+
+.registro-main .registro-container {
+  width: 80%;
+  height: 70vh;
+  transform: translate(10%);
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 40px;
+}
+
+.registro-container .registro-datos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.registro-container .registro-datos .registro-section {
+
+}
+
+/* TERMINA 'REGISTRO DE USUARIO' */
+
+/*
+ACÁ EMPIEZA EL NAV
+*/
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  align-items: center;
+  background-color: rgb(117, 8, 0);
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  z-index: 2;
+  box-shadow: 0px 0px 7px rgb(20, 20, 20)
+}
+
+.navitem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 2;
+  color: white;
+  height: 100%;
+}
+
+.navitem:hover {
+  background-color: #902020;
+}
+
+.divnav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+#mostrarlogin {
+  font-size: 1em;
+  background-color: inherit;
+  border: none;
+  color: white;
+  width: 100px;
+  height: 50px;
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+#mostrarlogin:hover {
+  background-color: #902020;
+}
+
+.userpic {
+  background-color: snow;
+  padding: 3px;
+  border-radius: 50%;
+}
+
+.searchbar {
+  display: flex;
+  flex-direction: row-reverse;
+  border: 1px solid rgba(194, 32, 32, 0.6);
+  padding: 5px;
+  border-radius: 7px;
+}
+
+#searchbar {
+  background-color: rgb(117, 8, 0);
+  color: white;
+  border: none;
+  outline: 0;
+  text-indent: 5px;
+  border-left: 1px solid rgba(255, 255, 255, .3);
+}
+
+#searchbar::placeholder {
+  color: snow;
+  opacity: 0.4;
+}
+
+#submitsearchbar {
+  background-color: rgb(117, 8, 0);
+  border: none;
+  padding: 0 10px;
+}
+
+#submitsearchbar:hover {
+  cursor: pointer;
+}
+
+/*
+    ACÁ TERMINA EL NAV
+
+    ACÁ INICIA EL FOOTER
+*/
+
+footer {
+background-color: rgb(117, 8, 0);
+margin-top: 40px;
+}
+
+.brandfooter {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 15px 0;
+color: white;
+text-indent: 20px;
+font-size: 3em;
+border-top: 1px solid rgb(194, 32, 32);
+}
+
+.brandfooter img {
+background-color: snow;
+padding: 2px 6px;
+border-radius: 50%;
+}
+
+#footerlist {
+display:flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: flex-start;
+padding: 20px 0;
+border-top: 2px solid rgb(194, 32, 32);
+border-bottom: 2px solid rgb(194, 32, 32);
+}
+
+.ftr-list {
+color: white;
+font-size: 1.2em;
+}
+
+.ftr-category {
+color: white;
+font-size: 1.4em;
+margin-bottom: 8px;
+}
+
+#derechos {
+display: flex;
+justify-content: center;
+color: white;
+padding: 10px 0;
+}
+
 /*
 //
 //    VENTANA POPUP LOGIN
@@ -375,7 +390,7 @@ p span {
 .popup .form input[type="text"],
 .popup .form input[type="password"] {
   display: block;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   width: 100%;
   padding: 5px;
   /* font-size: 1.2em; BAJAR */
@@ -385,6 +400,10 @@ p span {
   text-indent: 5px;
   border-radius: 8px;
   background-color: snow;
+}
+
+.popup .form input::placeholder {
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .popup button {
