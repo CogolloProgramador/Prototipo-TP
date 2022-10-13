@@ -120,7 +120,8 @@
 
     /* POPUP*/
     .popup {
-        width: 55vw;
+        width: 80vw;
+        
     }
 /*termina POPUP*/
 
@@ -128,17 +129,24 @@
 
 
     .brandfooter {
+        display: flex;
+        flex-wrap: wrap;
         text-align: center;
+        width: 100%;
+        font-size: 2em;
+        
     }
 
     .logofooter {
-        margin-left: 50px;
+     width: 55px;
     }
 
     .brandfooter img {
+        display: flex;
         background-color: snow;
         padding: 2px 6px;
-       
+        width: 55px;
+        
     }
 
     #footerlist {
@@ -162,6 +170,8 @@
         font-size: 1.4em;
         margin-bottom: 8px;
     }
+
+    /*termina FOOTER*/
 /*About*/
 
   
