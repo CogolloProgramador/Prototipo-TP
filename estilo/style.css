@@ -315,8 +315,8 @@ p span {
   left: 50%;
   transform: translate(-50%, -50%);
   opacity: 0;
-  width: 340px;
-  height: 380px;
+  width: 20vw;
+  height: 50vh;
   padding: 30px;
   background-color: rgb(117, 8, 0);
   border-radius: 8px;
@@ -324,7 +324,7 @@ p span {
 }
 
 .popup.active {
-  top: 30%;
+  top: 40%;
   opacity: 1;
 }
 
