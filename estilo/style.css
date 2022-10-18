@@ -34,6 +34,7 @@ body {
   margin-left: 110px;
   margin-right: 110px;
   margin-top: 10px;
+  padding-bottom: 40px;
 }
 
 /*.main-layout {
@@ -161,33 +162,60 @@ h1 {
   height: 60px;
 }
 
+.registro-main {
+  background-image: linear-gradient(to right, #750800 75%, #dfd2d2);
+}
+
 .registro-main .registro-container {
   /* background-color: rgba(0, 0, 0, 0.5); */
 }
 
+.texto-titulo {
+  background-color: rgba(133, 21, 13, .9);
+  padding: 20px;
+  box-shadow: 0px 0px 7px rgb(20, 20, 20);
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+.texto-titulo h1, .texto-titulo h2 {
+  color: white;
+}
+
 .registro-container .registro-datos {
-  margin: 20px;
-  padding: 10px;
-  border: 3px #3c9e9e solid;
-  background-color: snow;
-  box-shadow: 1px 1px 10px 5px rgba(88, 172, 172,.5);
+  /* margin: 20px; */
+  padding-left: 5%;
+  /* border: 3px #3c9e9e solid; */
+  background-color: rgb(117, 8, 0);
+  /* box-shadow: 1px 1px 10px 5px rgba(88, 172, 172,.5); */
   border-radius: 10px;
-  width: 50vw;
-  height: 90vh;
-  transform: translateX(25vw);
+  width: 480px;
+  height: 100vh;
+  /* transform: translateX(25vw); */
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .registro-container .registro-datos label {
   margin-top: 20px;
+  color: white;
   font-weight: bold;
 }
 
 .registro-datos ul li {
   font-weight: bold;
+  color: white;
   margin-bottom: 10px;
+}
+
+.registro-datos p {
+  margin-bottom: 40px;
+}
+
+.registro-datos a {
+  color: #3c9e9e;
+  text-decoration: underline;
 }
 
 .registro-container .registro-datos input {
@@ -195,7 +223,7 @@ h1 {
   border: none;
   border-radius: 10px;
   /* border: 1px #3c9e9e solid; */
-  background-color: maroon;
+  background-color: #580600;
   color: white;
   outline: none;
 }
@@ -210,8 +238,9 @@ h1 {
   margin-top: 30px;
   color: white;
   font-weight: bolder;
+  font-size: 1.4em;
   border: none;
-  background-color: maroon;
+  background-color: rgb(133, 21, 13);
   border-radius: 10px;
 }
 
@@ -220,6 +249,69 @@ h1 {
 }
 
 /* TERMINA 'REGISTRO DE USUARIO' */
+
+/* ACÁ EMPIEZA 'CONTACTO' */
+
+.contacto-contenido {
+  padding-bottom: 40px;
+  padding-left: 2%;
+}
+
+.contacto-contenido .contacto-info {
+  padding-bottom: 30px;
+}
+
+.contacto-contenido .datos-contacto {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  padding: 2%;
+  background-color: #984640;
+}
+
+.datos-contacto .msj-box {
+  width: 100%;
+  display: block;
+  height: 200px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(117, 8, 0);
+  outline: none;
+  padding: 10px 0;
+  resize: none;
+}
+
+.msj-box::placeholder {
+  color: rgba(255, 255, 255, .6)
+}
+
+.contenedor-msjbox {
+  margin-top: 20px;
+  position: relative;
+}
+
+.datos-contacto button {
+  width: 50%;
+  border: none;
+  padding-top: 6px;
+  background-color:
+}
+
+#btn-bxenviar {
+  border-radius: 0 0 0 10px;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+
+#btn-bxborrar {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  border-radius: 0 0 10px 0;
+}
+
+/* TERMINA 'CONTACTO' */
 
 /*
 ACÁ EMPIEZA EL NAV
@@ -347,7 +439,7 @@ ACÁ EMPIEZA EL NAV
 
 footer {
   background-color: rgb(117, 8, 0);
-  margin-top: 40px;
+  /* margin-top: 40px; */
 }
 
 .brandfooter {
@@ -394,6 +486,7 @@ footer {
   justify-content: center;
   color: white;
   padding: 10px 0;
+  font-family: helvetica;
 }
 
 /*
@@ -409,8 +502,8 @@ footer {
   left: 50%;
   transform: translate(-50%, -50%);
   opacity: 0;
-  width: 18vw;
-  height: 370px;
+  width: 400px;
+  height: 460px;
   padding: 30px;
   background-color: #902020;
   border-radius: 8px;

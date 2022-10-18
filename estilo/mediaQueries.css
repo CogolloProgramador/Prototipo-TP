@@ -14,8 +14,8 @@
     }
 
     /*NAV*/
-    
-    
+
+
     .navitem {
         display: none;
     }
@@ -120,8 +120,8 @@
 
     /* POPUP*/
     .popup {
-        width: 80vw;
-        
+        width: 340px;;
+
     }
 /*termina POPUP*/
 
@@ -134,7 +134,7 @@
         text-align: center;
         width: 100%;
         font-size: 2em;
-        
+
     }
 
     .logofooter {
@@ -146,7 +146,7 @@
         background-color: snow;
         padding: 2px 6px;
         width: 55px;
-        
+
     }
 
     #footerlist {
@@ -155,7 +155,7 @@
         gap: 20px;
         align-items: center;
         text-align: center;
-    
+
     }
 
     .ftr-list {
@@ -163,7 +163,7 @@
         font-size: 1.2em;
         line-height:1.2em;
     }
-  
+
 
     .ftr-category {
         color: white;
@@ -174,33 +174,33 @@
     /*termina FOOTER*/
 /*About*/
 
-  
+
   .tituloaboutus {
     font-size: 3em;
- 
+
   }
-  
+
   .seccion h2 {
     color: rgb(133, 21, 13);
     font-size: 2em;
-    
+
   }
-  
+
   .container1 {
     display: block;
-  
+
   }
-  
+
   .seccion {
     display: flex;
     flex-direction: column;
     border-width: 2px;
     margin: 40px 30px 60px 30px;
     background-color: rgba(133, 21, 13, 0.066);
-  
+
   }
-  
-  
+
+
   .texto {
     display: flex;
     flex-direction: column;
@@ -210,10 +210,9 @@
     margin-bottom: 20px;
     line-height: 1.5em;
   }
-  
+
 
   .foto {
     width: 100%;
-    
+
   }
-  

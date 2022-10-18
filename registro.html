@@ -7,6 +7,8 @@
   <title>Prototipo TP | Registrate</title>
   <link rel="icon" href="./imagenes/favicon.ico">
   <link rel="stylesheet" href="./estilo/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica+SC&family=Special+Elite&display=swap"
+    rel="stylesheet">
 </head>
 <body>
   <header>
@@ -15,15 +17,25 @@
       <a class="navitem" href="">CATÁLOGO</a>
       <a class="navitem" href="about.html">NOSOTROS</a>
       <a class="navitem" href="contact.html">CONTACTO</a>
-      <!-- <div class="divnav">
-        <img class="userpic" src="./imagenes/user_blank.png" alt="" width="32px">
+      <div class="divnav">
+        <label for="menu" class="nav_label"><img class="menuHamburguesa" src="./imagenes/menu.png" alt="menu"></label>
+        <input type="checkbox" id="menu" class="nav_input">
+        <div class="nav_menu">
+          <a href="index.html" class="nav_item">Inicio</a>
+          <a href="" class="nav_item">Catálogo</a>
+          <a href="about.html" class="nav_item">Nosotros</a>
+          <a href="" class="nav_item">Contacto</a>
+        </div>
+        <!-- <img class="userpic" src="./imagenes/user_blank.png" alt="" width="32px">
         <button id="mostrarlogin" type="button" name="button">INVITADO</button>
+        <button id="mostrarlogin600px" type="button" name="button"> <img class="userpic1" src="./imagenes/user_blank.png" alt="" width="32px"></button>
         <img class="userpic" src="./imagenes/carro.png" alt="" width="24px">
-      </div> -->
+        <img class="userpic2" src="./imagenes/carro.png" alt="" width="24px"> -->
+      </div>
       <div class="divnav">
         <form class="searchbar" action="index.html" method="post">
           <input id="searchbar" type="text" name="" value="" placeholder="Buscar...">
-          <button id="submitsearchbar" type="button" name="button"><img src="./imagenes/lupa.png" alt="" width="24px"></button>
+          <button id="submitsearchbar" type="button" name="button"><img src="./imagenes/lupa.png" alt=""width="24px"></button>
         </form>
       </div>
     </nav>
@@ -34,8 +46,10 @@
 
     </div>
 
-    <h1>REGISTRATE GRATIS Y FACIL</h1>
-    <h2>Accede a nuestras últimas noticias de lanzamientos, promociones y ofertas. <br> Interactua con nuestra comunidad y encontrá tu próximo libro favorito!</h2>
+    <div class="texto-titulo">
+      <h1>REGISTRATE GRATIS Y FACIL</h1>
+      <h2>·Accede a nuestras últimas noticias de lanzamientos, promociones y ofertas. <br> ·Interactua con nuestra comunidad y encontrá tu próximo libro favorito!</h2>
+    </div>
 
     <div class="registro-container">
       <form class="registro-datos" action="index.html" method="post">
@@ -50,13 +64,15 @@
           <label for="date">Fecha de Nacimiento</label>
           <input class="class-test" type="date" name="date" value="">
         <ul id="generos" class="registro-section">
-          <li><label for="interestGenres">Tus intereces:</label></li>
+          <li><label for="interestGenres">Tus intereces (opcional)</label></li>
           <li><input type="checkbox" name="interestGenres" value=""> Fantasía</li>
           <li><input type="checkbox" name="interestGenres" value=""> Ciencia-Ficción</li>
           <li><input type="checkbox" name="interestGenres" value=""> Drama</li>
           <li><input type="checkbox" name="interestGenres" value=""> Misterio</li>
           <li><input type="checkbox" name="interestGenres" value=""> Fantasía Moderna</li>
           <li><p>Es solo para saber que libros recomendarte! &#128521;</p></li>
+          <li><input type="checkbox" name="interestGenres" value=""> Deseo recibir emails con promociones, descuentos y recomendaciones basadas en mis intereses</li>
+          <li><input type="checkbox" name="" value=""> He leído y acepto los <a href="">Terminos</a> y <a href="">condiciones</a></li>
         </ul>
         <button type="submit" name="button">CREAR CUENTA</button>
           <!-- <label  for=""></label>
