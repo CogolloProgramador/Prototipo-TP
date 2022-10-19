@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica+SC&family=Special+Elite&display=swap"
       rel="stylesheet">
     <link rel="stylesheet" href="./estilo/mediaQueries.css">
+    <script src="./javascript/test.js"></script>
   </head>
   <body>
     <header>
@@ -65,9 +66,9 @@
           <input type="text" name="telefono" value="">
           <div class="contenedor-msjbox">
             <!-- <input class="msj-box" type="text" name="" value="" placeholder="Escribí tu mensaje acá..."> -->
-            <textarea class="msj-box" name="msj" rows="7" cols="40" placeholder="Escribí tu mensaje acá..."></textarea>
+            <textarea id="txtarea" class="msj-box" name="msj" value="" rows="7" cols="40" placeholder="Escribí tu mensaje acá..."></textarea>
             <button id="btn-bxenviar" type="submit" name="submit">ENVIAR</button>
-            <button id="btn-bxborrar" type="button" name="borrar">BORRAR</button>
+            <button id="btn-bxborrar" type="button" name="borrar" onclick="clearBox()">BORRAR</button>
           </div>
         </form>
         <!-- <label for=""></label>

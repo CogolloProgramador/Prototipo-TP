@@ -13,14 +13,15 @@
   <link href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica+SC&family=Special+Elite&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="./estilo/mediaQueries.css">
-  
-  
+  <script src="./javascript/test.js"></script>
+  <!-- <script src="./javascript/main.js"></script>
+  <script src="./javascript/data.json"></script> -->
 </head>
 
 <body>
 
   <header>
-    
+
 
 
     <nav class="navbar">
@@ -43,9 +44,9 @@
 
         </div>
 
-        <img class="userpic" src="./imagenes/user_blank.png" alt="" width="32px">
-        <button id="mostrarlogin" type="button" name="button">INVITADO</button>
-        <button id="mostrarlogin600px" type="button" name="button"> <img class="userpic1"
+        <img class="userpic" src="./imagenes/user_blank.png" alt="" width="32px" onclick="showLogin()">
+        <button id="mostrarlogin" type="button" name="button" onclick="showLogin()">INVITADO</button>
+        <button id="mostrarlogin600px" type="button" name="button" onclick="showLogin()"> <img class="userpic1"
             src="./imagenes/user_blank.png" alt="" width="32px"></button>
         <img class="userpic" src="./imagenes/carro.png" alt="" width="24px">
         <img class="userpic2" src="./imagenes/carro.png" alt="" width="24px">
@@ -58,10 +59,10 @@
         </form>
       </div>
     </nav>
-    
+
 
     <img class="banner" src="./imagenes/BANNERV2.png" alt="Libreria la hoja en blanco">
-    
+
   </header>
 
   <main>
@@ -114,17 +115,17 @@
           <a href="#itemCarrousel-3">•</a>
       </div>
   </div>
-    
-  
+
+
 
    <section class="boxcontainer">
 
-      
+
 
     </section>
 
     <div class="popup">
-      <div class="close-btn">&times;</div>
+      <div class="close-btn" onclick="hideLogin()">&times;</div>
       <div class="form">
         <h2>Inicia Sesión</h2>
         <div class="form-element">
@@ -206,7 +207,7 @@
     </div>
     <p id="derechos">Los Pibes © 2022 · Codo a Codo 22522</p>
   </footer>
-  <div class="cortina">
+  <div class="cortina" onclick="hideLogin()">
 
   </div>
   <script src="https://kit.fontawesome.com/887a835504.js" crossorigin="anonymous"></script>
@@ -220,22 +221,20 @@
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
   <script type="text/javascript">
-    document.querySelector("#mostrarlogin").addEventListener("click", function () {
-      document.querySelector(".popup").classList.add("active");
-      document.querySelector(".cortina").classList.add("curtainActive");
-    });
-    document.querySelector(".popup .close-btn").addEventListener("click", function () {
-      document.querySelector(".popup").classList.remove("active");
-      document.querySelector(".cortina").classList.remove("curtainActive");
-    });
-    document.querySelector("#mostrarlogin600px").addEventListener("click", function () {
-      document.querySelector(".popup").classList.add("active");
-      document.querySelector(".cortina").classList.add("curtainActive");
-    });
+    // document.querySelector("#mostrarlogin").addEventListener("click", function () {
+    //   // document.querySelector(".popup").classList.add("active");
+    //   // document.querySelector(".cortina").classList.add("curtainActive");
+    // });
+    // document.querySelector(".popup .close-btn").addEventListener("click", function () {
+    //   document.querySelector(".popup").classList.remove("active");
+    //   document.querySelector(".cortina").classList.remove("curtainActive");
+    // });
+    // document.querySelector("#mostrarlogin600px").addEventListener("click", function () {
+    //   document.querySelector(".popup").classList.add("active");
+    //   document.querySelector(".cortina").classList.add("curtainActive");
+    // });
 
   </script>
-  <script src="./javascript/main.js"></script>
-  <script src="./javascript/data.json"></script>
 </body>
 
 </html>
