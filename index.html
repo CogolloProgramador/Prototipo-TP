@@ -13,11 +13,14 @@
   <link href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica+SC&family=Special+Elite&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="./estilo/mediaQueries.css">
+  
+  
 </head>
 
 <body>
 
   <header>
+    
 
 
     <nav class="navbar">
@@ -55,23 +58,68 @@
         </form>
       </div>
     </nav>
+    
 
     <img class="banner" src="./imagenes/BANNERV2.png" alt="Libreria la hoja en blanco">
-
+    
   </header>
 
   <main>
+    <div class="espaciocarrusel"></div>
+    <div class="carrousel">
+      <div class="conteCarrousel">
+          <div class="itemCarrousel" id="itemCarrousel-1">
+              <div class="itemCarrouselTarjeta">
+                  <img class="imgcarrusel" src="imagenes/carrusel1.png" alt="">
+              </div>
+              <div class="itemCarrouselArrows">
+                  <a href="#itemCarrousel-3">
+                      <i class="fas fa-chevron-left"></i>
+                  </a>
+                  <a href="#itemCarrousel-2">
+                      <i class="fas fa-chevron-right"></i>
+                  </a>
+              </div>
+          </div>
+          <div class="itemCarrousel" id="itemCarrousel-2">
+              <div class="itemCarrouselTarjeta">
+                  <img class="imgcarrusel" src="imagenes/carrusel2.png" alt="">
+              </div>
+              <div class="itemCarrouselArrows">
+                  <a href="#itemCarrousel-1">
+                      <i class="fas fa-chevron-left"></i>
+                  </a>
+                  <a href="#itemCarrousel-3">
+                      <i class="fas fa-chevron-right"></i>
+                  </a>
+              </div>
+          </div>
+          <div class="itemCarrousel" id="itemCarrousel-3">
+              <div class="itemCarrouselTarjeta">
+                  <img class="imgcarrusel" src="imagenes/carrusel3.png" alt="">
+              </div>
+              <div class="itemCarrouselArrows">
+                  <a href="#itemCarrousel-2">
+                      <i class="fas fa-chevron-left"></i>
+                  </a>
+                  <a href="#itemCarrousel-1">
+                      <i class="fas fa-chevron-right"></i>
+                  </a>
+              </div>
+          </div>
+      </div>
+      <div class="conteCarrouselController">
+          <a href="#itemCarrousel-1">•</a>
+          <a href="#itemCarrousel-2">•</a>
+          <a href="#itemCarrousel-3">•</a>
+      </div>
+  </div>
+    
+  
 
-    <section class="main-layout">
+   <section class="boxcontainer">
 
-      <div class="box"><img class="portada" src="./imagenes/ej-portada.jpg" alt="Portada"></div>
-      <div class="box"><img class="portada" src="./imagenes/ej-portada2.jpg" alt="Portada"></div>
-      <div class="box"><img class="portada" src="./imagenes/ej-portada3.jpg" alt="portada"></div>
-      <div class="box"><img class="portada" src="./imagenes/ej-portada4.jpg" alt="portada"></div>
-      <div class="box"><img class="portada" src="./imagenes/ej-portada4.jpg" alt="portada"></div>
-      <div class="box"><img class="portada" src="./imagenes/ej-portada3.jpg" alt="portada"></div>
-      <div class="box"><img class="portada" src="./imagenes/ej-portada2.jpg" alt="portada"></div>
-      <div class="box"><img class="portada" src="./imagenes/ej-portada.jpg" alt="portada"></div>
+      
 
     </section>
 
@@ -161,6 +209,7 @@
   <div class="cortina">
 
   </div>
+  <script src="https://kit.fontawesome.com/887a835504.js" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
@@ -185,6 +234,8 @@
     });
 
   </script>
+  <script src="./javascript/main.js"></script>
+  <script src="./javascript/data.json"></script>
 </body>
 
 </html>

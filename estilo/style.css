@@ -18,10 +18,145 @@ body {
 .banner {
   height: 50px;
   align-items: center;
+<<<<<<< HEAD
   margin: 20px;
   0;
   position: relative;
   top: 50px;
+=======
+}
+
+
+
+.nav {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto 400px;
+  margin: 0px;
+  background-color: rgb(133, 21, 13);
+  border-bottom: solid;
+  border-color: rgb(196, 196, 196);
+  border-width: 1px;
+
+}
+
+.navfootgrid {
+  background-color: rgb(117, 8, 0);
+  display: grid;
+  grid-template: auto/ auto auto auto auto auto;
+  grid-template-areas:
+    'nfi1'
+    'nfi2'
+    'nfi3'
+    'nfi4'
+    'nfi5';
+  
+
+}
+
+.navfootitem1 {
+  background-color: rgb(133, 21, 13);
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: medium;
+  padding: 5px;
+  grid-area: nfi1;
+
+}
+
+.navfootitem2 {
+  background-color: rgb(133, 21, 13);
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: medium;
+  padding: 5px;
+  grid-area: nfi2;
+
+}
+
+.navfootitem3 {
+  background-color: rgb(133, 21, 13);
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: medium;
+  padding: 5px;
+  grid-area: nfi3;
+
+}
+
+.navfootitem4 {
+  background-color: rgb(133, 21, 13);
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: medium;
+  padding: 5px;
+  grid-area: nfi4;
+
+}
+
+.navfootitem5 {
+  background-color: rgb(133, 21, 13);
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: medium;
+  padding: 5px;
+  grid-area: nfi5;
+
+}
+
+.h3foot {
+  color: rgb(255, 255, 255);
+  padding: 2px;
+  margin: 1px;
+
+}
+
+.navitem:hover {
+
+  text-align: center;
+  color: white;
+  background-color: rgb(145, 24, 15);
+  padding: 25;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-transform: uppercase;
+
+
+}
+
+
+.navitem {
+  text-align: center;
+  color: white;
+  background-color: rgb(117, 8, 0);
+  width: auto;
+  height: auto;
+  padding: 15px;
+  margine 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+
+.navitem1 {
+
+  grid-area: menu;
+
+
+
+}
+
+.navitem2 {
+
+  grid-area: main;
+  justify-content: left;
+  margin-top: 2px;
+
+>>>>>>> 9c005cae23c4d583ea5894972176b8a534af78fb
 }
 
 .main-layout {
@@ -71,6 +206,85 @@ body {
 /*
       ACÁ TERMINA EL INDEX MAIN
 */
+
+/* CARRUSEL */
+
+
+
+.carrousel{
+  width: 100%; 
+    
+}
+
+.conteCarrousel{
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+}
+
+.itemCarrousel{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  
+}
+
+.itemCarrouselTarjeta{
+  width: 100%;
+  height: 100%;
+}
+
+.itemCarrouselArrows{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%; 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px; 
+}
+
+.itemCarrouselArrows > i:hover {
+  cursor: pointer;
+}
+
+#itemCarrousel-1{
+  background-color: rgb(226, 50, 50);
+}
+
+#itemCarrousel-2{
+  background-color: rgb(50, 200, 226);
+}
+
+#itemCarrousel-3{
+  background-color: rgb(200, 226, 50);
+}
+
+.conteCarrouselController{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.conteCarrouselController > a{
+  text-decoration: none;
+  font-size: 2em;
+  color: grey;
+}
+
+.itemCarrouselArrows > a > i{
+  color: white;
+}
+.imgcarrusel{
+  width: 100%;
+  height: 100%;
+}
+
+/* FIN CARRUSEL */
 
 /*sobre nosotros*/
 
@@ -611,9 +825,21 @@ footer {
   color: #209090;
 }
 
+<<<<<<< HEAD
 .popup .form-element-redirect {
   position: absolute;
   bottom: 5px;
   text-align: center;
   /* font-size: 1em; */
+=======
+.footergrid {
+  background-color: rgb(117, 8, 0);
+  display: grid;
+  grid-template-columns: 40% 30% 30%;
+  grid-template-areas: 'sec1 sec2 sec3';
+  justify-content: space-around;
+  gap: 10px;
+  padding: 50px;
+
+>>>>>>> 9c005cae23c4d583ea5894972176b8a534af78fb
 }
