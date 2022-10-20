@@ -19,14 +19,7 @@
        display: none;
    }
 
-   /* .navitem:hover {
-       background-color: #902020;
-   } */
-
    .divnav {  /*  CONTENEDOR  */
-       /* display: flex;
-       align-items: center;
-       justify-content: center; */
        flex-grow: 0;
        gap: 20px
    }
@@ -44,37 +37,6 @@
      order: 2;
      flex-grow: 1;
    }
-
-   /* #mostrarlogin:hover {
-       background-color: #902020;
-   } */
-
-   /* .userpic {
-       display: none;
-   } */
-
-   /* .userpic1 {
-       display: flex;
-       background-color: snow;
-       padding: 3px;
-       border-radius: 50%;
-       width: 32px;
-       cursor: pointer;
-   } */
-
-   /* .userpic2 {
-       display: flex;
-       background-color: snow;
-       padding: 3px;
-       border-radius: 50%;
-       width: 32px;
-   } */
-
-   /* #mostrarlogin600px {
-       display: flex;
-       border-radius: 50%;
-       border: none;
-   } */
 
     /*  TERMINA FULL NAV  */
 
@@ -103,7 +65,6 @@
        text-decoration: none;
        width: 100%;
        text-align: center;
-       /* vertical-align: middle; */
        line-height: 80px;
        height: 80px;
    }
