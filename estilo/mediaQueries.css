@@ -13,110 +13,131 @@
         height: fit-content;
     }
 
-    /*NAV*/
-
+    /*  ACÁ EMPIEZA FULL NAV  */
 
     .navitem {
-        display: none;
-    }
+       display: none;
+   }
 
-    .navitem:hover {
-        background-color: #902020;
-    }
+   /* .navitem:hover {
+       background-color: #902020;
+   } */
 
-    .divnav {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-grow: 1;
-        gap: 20px
-    }
+   .divnav {  /*  CONTENEDOR  */
+       /* display: flex;
+       align-items: center;
+       justify-content: center; */
+       flex-grow: 0;
+       gap: 20px
+   }
 
-    #mostrarlogin {
-        display: none;
+   #mostrarlogin {
+       display: none;
+   }
 
-    }
+   #userdiv {
+     order: 3;
+     padding-right: 10px;
+   }
 
-    #mostrarlogin:hover {
-        background-color: #902020;
-    }
+   #sbdiv {
+     order: 2;
+     flex-grow: 1;
+   }
 
-    .userpic {
-        display: none;
-    }
+   /* #mostrarlogin:hover {
+       background-color: #902020;
+   } */
 
-    .userpic1 {
-        display: flex;
-        background-color: snow;
-        padding: 3px;
-        border-radius: 50%;
-        width: 32px;
-        cursor: pointer;
-    }
+   /* .userpic {
+       display: none;
+   } */
 
-    .userpic2 {
-        display: flex;
-        background-color: snow;
-        padding: 3px;
-        border-radius: 50%;
-        width: 32px;
-    }
+   /* .userpic1 {
+       display: flex;
+       background-color: snow;
+       padding: 3px;
+       border-radius: 50%;
+       width: 32px;
+       cursor: pointer;
+   } */
 
-    #mostrarlogin600px {
-        display: flex;
-        border-radius: 50%;
-        border: none;
-    }
+   /* .userpic2 {
+       display: flex;
+       background-color: snow;
+       padding: 3px;
+       border-radius: 50%;
+       width: 32px;
+   } */
 
-    .menuHamburguesa {
-        display: flex;
-        width: 40px;
-        padding: 3px;
-        border-radius: 50%;
-    }
+   /* #mostrarlogin600px {
+       display: flex;
+       border-radius: 50%;
+       border: none;
+   } */
+
+    /*  TERMINA FULL NAV  */
+
+    /*  ACÁ EMPIEZA MINI NAV  */
+
+   .menuHamburguesa {
+       display: flex;
+       width: 40px;
+       padding: 3px;
+       border-radius: 50%;
+   }
 
 
-    #menu {
-        display: none;
-    }
+   #menu {
+       display: none;
+   }
 
-    .nav_menu {
-        display: grid;
-        grid-auto-flow: row;
-        gap: 3em;
-    }
+   .nav_menu {
+       display: grid;
+       grid-auto-flow: row;
+       gap: 3em;
+   }
 
-    .nav_item {
-        color: snow;
-        text-decoration: none;
-    }
+   .nav_item {
+       color: snow;
+       text-decoration: none;
+       width: 100%;
+       text-align: center;
+       /* vertical-align: middle; */
+       line-height: 80px;
+       height: 80px;
+   }
 
-    .nav_label {
-        display: block;
-        cursor: pointer;
-    }
+   .nav_item:hover {
+     background-color: Maroon;
+   }
 
-    .nav_menu {
-        position: fixed;
-        top: 60px;
-        bottom: 0;
-        background-color: #902020;
-        width: 100%;
-        left: 0;
-        display: flex;
-        justify-content: center;
-        gap: 70px;
-        flex-direction: column;
-        align-items: center;
-        clip-path: circle(0 at center);
-        font-size: 1.2em;
-    }
+   .nav_label {
+       display: block;
+       cursor: pointer;
+   }
 
-    .nav_input:checked+.nav_menu {
-        clip-path: circle(100% at center);
-    }
+   .nav_menu {
+       position: fixed;
+       top: 60px;
+       bottom: 0;
+       background-color: #902020;
+       width: 100%;
+       left: 0;
+       display: flex;
+       justify-content: center;
+       gap: 70px;
+       flex-direction: column;
+       align-items: center;
+       clip-path: circle(0 at center);
+       font-size: 1.2em;
+   }
 
-    /* ACÁ TERMINA EL NAV*/
+   .nav_input:checked+.nav_menu {
+       clip-path: circle(100% at center);
+   }
+
+    /* ACÁ TERMINA EL MINI NAV*/
 
     /* POPUP*/
     .popup {

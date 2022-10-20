@@ -17,25 +17,25 @@
       <a class="navitem" href="">CATÁLOGO</a>
       <a class="navitem" href="about.html">NOSOTROS</a>
       <a class="navitem" href="contact.html">CONTACTO</a>
-      <div class="divnav">
-        <label for="menu" class="nav_label"><img class="menuHamburguesa" src="./imagenes/menu.png" alt="menu"></label>
-        <input type="checkbox" id="menu" class="nav_input">
-        <div class="nav_menu">
-          <a href="index.html" class="nav_item">Inicio</a>
-          <a href="" class="nav_item">Catálogo</a>
-          <a href="about.html" class="nav_item">Nosotros</a>
-          <a href="" class="nav_item">Contacto</a>
-        </div>
-        <!-- <img class="userpic" src="./imagenes/user_blank.png" alt="" width="32px">
-        <button id="mostrarlogin" type="button" name="button">INVITADO</button>
-        <button id="mostrarlogin600px" type="button" name="button"> <img class="userpic1" src="./imagenes/user_blank.png" alt="" width="32px"></button>
-        <img class="userpic" src="./imagenes/carro.png" alt="" width="24px">
-        <img class="userpic2" src="./imagenes/carro.png" alt="" width="24px"> -->
+      <label for="menu" class="nav_label">
+        <img class="menuHamburguesa" src="./imagenes/menu.png" alt="menu">
+      </label>
+      <input type="checkbox" id="menu" class="nav_input">
+      <div class="nav_menu">
+        <a href="index.html" class="nav_item">Inicio</a>
+        <a href="" class="nav_item">Catálogo</a>
+        <a href="about.html" class="nav_item">Nosotros</a>
+        <a href="contact.html" class="nav_item">Contacto</a>
       </div>
-      <div class="divnav">
+      <!-- <div class="divnav" id="userdiv">
+        <img class="userpic" src="./imagenes/user_blank.png" alt="" width="32px" onclick="showLogin()">
+        <button id="mostrarlogin" type="button" name="button" onclick="showLogin()">INVITADO</button>
+        <img class="userpic" src="./imagenes/carro.png" alt="" width="30px">
+      </div> -->
+      <div class="divnav" id="sbdiv">
         <form class="searchbar" action="index.html" method="post">
           <input id="searchbar" type="text" name="" value="" placeholder="Buscar...">
-          <button id="submitsearchbar" type="button" name="button"><img src="./imagenes/lupa.png" alt=""width="24px"></button>
+          <button id="submitsearchbar" type="submit" name="button"><img src="./imagenes/lupa.png" alt="" width="24px"></button>
         </form>
       </div>
     </nav>

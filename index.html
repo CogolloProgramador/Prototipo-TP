@@ -22,44 +22,33 @@
 
   <header>
 
-
-
     <nav class="navbar">
       <a class="navitem" href="index.html">INICIO</a>
       <a class="navitem" href="">CATÁLOGO</a>
       <a class="navitem" href="about.html">NOSOTROS</a>
       <a class="navitem" href="contact.html">CONTACTO</a>
-      <div class="divnav">
-
-        <label for="menu" class="nav_label">
-          <img class="menuHamburguesa" src="./imagenes/menu.png" alt="menu">
-        </label>
-        <input type="checkbox" id="menu" class="nav_input">
-        <div class="nav_menu">
-          <a href="index.html" class="nav_item">Inicio</a>
-          <a href="" class="nav_item">Catálogo</a>
-          <a href="about.html" class="nav_item">Nosotros</a>
-          <a href="" class="nav_item">Contacto</a>
-
-
-        </div>
-
+      <label for="menu" class="nav_label">
+        <img class="menuHamburguesa" src="./imagenes/menu.png" alt="menu">
+      </label>
+      <input type="checkbox" id="menu" class="nav_input">
+      <div class="nav_menu">
+        <a href="index.html" class="nav_item">Inicio</a>
+        <a href="" class="nav_item">Catálogo</a>
+        <a href="about.html" class="nav_item">Nosotros</a>
+        <a href="contact.html" class="nav_item">Contacto</a>
+      </div>
+      <div class="divnav" id="userdiv">
         <img class="userpic" src="./imagenes/user_blank.png" alt="" width="32px" onclick="showLogin()">
         <button id="mostrarlogin" type="button" name="button" onclick="showLogin()">INVITADO</button>
-        <button id="mostrarlogin600px" type="button" name="button" onclick="showLogin()"> <img class="userpic1"
-            src="./imagenes/user_blank.png" alt="" width="32px"></button>
-        <img class="userpic" src="./imagenes/carro.png" alt="" width="24px">
-        <img class="userpic2" src="./imagenes/carro.png" alt="" width="24px">
+        <img class="userpic" src="./imagenes/carro.png" alt="" width="30px">
       </div>
-      <div class="divnav">
+      <div class="divnav" id="sbdiv">
         <form class="searchbar" action="index.html" method="post">
           <input id="searchbar" type="text" name="" value="" placeholder="Buscar...">
-          <button id="submitsearchbar" type="button" name="button"><img src="./imagenes/lupa.png" alt=""
-              width="24px"></button>
+          <button id="submitsearchbar" type="submit" name="button"><img src="./imagenes/lupa.png" alt="" width="24px"></button>
         </form>
       </div>
     </nav>
-
 
     <img class="banner" src="./imagenes/BANNERV2.png" alt="Libreria la hoja en blanco">
 
@@ -151,7 +140,9 @@
         </div>
       </div>
     </div>
+    <div class="cortina" onclick="hideLogin()">
 
+    </div>
 
   </main>
 
@@ -207,9 +198,7 @@
     </div>
     <p id="derechos">Los Pibes © 2022 · Codo a Codo 22522</p>
   </footer>
-  <div class="cortina" onclick="hideLogin()">
 
-  </div>
   <script src="https://kit.fontawesome.com/887a835504.js" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
