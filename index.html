@@ -14,8 +14,8 @@
     rel="stylesheet">
   <link rel="stylesheet" href="./estilo/mediaQueries.css">
   <script src="./javascript/test.js"></script>
-  <!-- <script src="./javascript/main.js"></script>
-  <script src="./javascript/data.json"></script> -->
+  <script src="./javascript/main.js"></script>
+  <script src="./javascript/data.json"></script>
 </head>
 
 <body>
@@ -45,7 +45,8 @@
       <div class="divnav" id="sbdiv">
         <form class="searchbar" action="index.html" method="post">
           <input id="searchbar" type="text" name="" value="" placeholder="Buscar...">
-          <button id="submitsearchbar" type="submit" name="button"><img src="./imagenes/lupa.png" alt="" width="24px"></button>
+          <button id="submitsearchbar" type="submit" name="button"><img src="./imagenes/lupa.png" alt=""
+              width="24px"></button>
         </form>
       </div>
     </nav>
@@ -58,96 +59,94 @@
     <div class="espaciocarrusel"></div>
     <div class="carrousel">
       <div class="conteCarrousel">
-          <div class="itemCarrousel" id="itemCarrousel-1">
-              <div class="itemCarrouselTarjeta">
-                  <img class="imgcarrusel" src="imagenes/carrusel1.png" alt="">
-              </div>
-              <div class="itemCarrouselArrows">
-                  <a href="#itemCarrousel-3">
-                      <i class="fas fa-chevron-left"></i>
-                  </a>
-                  <a href="#itemCarrousel-2">
-                      <i class="fas fa-chevron-right"></i>
-                  </a>
-              </div>
+        <div class="itemCarrousel" id="itemCarrousel-1">
+          <div class="itemCarrouselTarjeta">
+            <img class="imgcarrusel" src="imagenes/carrusel1.png" alt="">
           </div>
-          <div class="itemCarrousel" id="itemCarrousel-2">
-              <div class="itemCarrouselTarjeta">
-                  <img class="imgcarrusel" src="imagenes/carrusel2.png" alt="">
-              </div>
-              <div class="itemCarrouselArrows">
-                  <a href="#itemCarrousel-1">
-                      <i class="fas fa-chevron-left"></i>
-                  </a>
-                  <a href="#itemCarrousel-3">
-                      <i class="fas fa-chevron-right"></i>
-                  </a>
-              </div>
+          <div class="itemCarrouselArrows">
+            <a href="#itemCarrousel-3">
+              <i class="fas fa-chevron-left"></i>
+            </a>
+            <a href="#itemCarrousel-2">
+              <i class="fas fa-chevron-right"></i>
+            </a>
           </div>
-          <div class="itemCarrousel" id="itemCarrousel-3">
-              <div class="itemCarrouselTarjeta">
-                  <img class="imgcarrusel" src="imagenes/carrusel3.png" alt="">
-              </div>
-              <div class="itemCarrouselArrows">
-                  <a href="#itemCarrousel-2">
-                      <i class="fas fa-chevron-left"></i>
-                  </a>
-                  <a href="#itemCarrousel-1">
-                      <i class="fas fa-chevron-right"></i>
-                  </a>
-              </div>
+        </div>
+        <div class="itemCarrousel" id="itemCarrousel-2">
+          <div class="itemCarrouselTarjeta">
+            <img class="imgcarrusel" src="imagenes/carrusel2.png" alt="">
           </div>
+          <div class="itemCarrouselArrows">
+            <a href="#itemCarrousel-1">
+              <i class="fas fa-chevron-left"></i>
+            </a>
+            <a href="#itemCarrousel-3">
+              <i class="fas fa-chevron-right"></i>
+            </a>
+          </div>
+        </div>
+        <div class="itemCarrousel" id="itemCarrousel-3">
+          <div class="itemCarrouselTarjeta">
+            <img class="imgcarrusel" src="imagenes/carrusel3.png" alt="">
+          </div>
+          <div class="itemCarrouselArrows">
+            <a href="#itemCarrousel-2">
+              <i class="fas fa-chevron-left"></i>
+            </a>
+            <a href="#itemCarrousel-1">
+              <i class="fas fa-chevron-right"></i>
+            </a>
+          </div>
+        </div>
       </div>
       <div class="conteCarrouselController">
-          <a href="#itemCarrousel-1">•</a>
-          <a href="#itemCarrousel-2">•</a>
-          <a href="#itemCarrousel-3">•</a>
+        <a href="#itemCarrousel-1">•</a>
+        <a href="#itemCarrousel-2">•</a>
+        <a href="#itemCarrousel-3">•</a>
       </div>
-  </div>
+      
 
 
-
-   <section class="boxcontainer">
-
-
-
-    </section>
-
-    <div class="popup">
-      <div class="close-btn" onclick="hideLogin()">&times;</div>
-      <div class="form">
-        <h2>Inicia Sesión</h2>
-        <div class="form-element">
-          <label for="email">Email</label>
-          <input id="email" type="text" name="" value="" placeholder="example@email.com">
+        <div class="popup">
+          <div class="close-btn" onclick="hideLogin()">&times;</div>
+          <div class="form">
+            <h2>Inicia Sesión</h2>
+            <div class="form-element">
+              <label for="email">Email</label>
+              <input id="email" type="text" name="" value="" placeholder="example@email.com">
+            </div>
+            <div class="form-element">
+              <label for="password">Contraseña</label>
+              <input id="password" type="password" name="" value="" placeholder="****">
+            </div>
+            <div class="form-element">
+              <input id="recordar" type="checkbox" name="" value="">
+              <label for="remember-me">Recordar Datos</label>
+            </div>
+            <div class="form-element">
+              <a href="#">Olvidaste la contraseña?</a>
+            </div>
+            <div class="form-element">
+              <button type="button" name="button">Iniciar Sesión</button>
+            </div>
+            <div class="form-element-redirect">
+              <a href="registro.html">No tienes cuenta? Crea una</a>
+            </div>
+          </div>
         </div>
-        <div class="form-element">
-          <label for="password">Contraseña</label>
-          <input id="password" type="password" name="" value="" placeholder="****">
-        </div>
-        <div class="form-element">
-          <input id="recordar" type="checkbox" name="" value="">
-          <label for="remember-me">Recordar Datos</label>
-        </div>
-        <div class="form-element">
-          <a href="#">Olvidaste la contraseña?</a>
-        </div>
-        <div class="form-element">
-          <button type="button" name="button">Iniciar Sesión</button>
-        </div>
-        <div class="form-element-redirect">
-          <a href="registro.html">No tienes cuenta? Crea una</a>
-        </div>
-      </div>
-    </div>
-    <div class="cortina" onclick="hideLogin()">
+        <div class="cortina" onclick="hideLogin()">
 
-    </div>
+        </div>
+        <div class="tarjeta">
+
+        </div>
+        
 
   </main>
 
   <footer>
-    <a class="brandfooter" href="index.html"><img class="logofooter" src="./imagenes/logo.png" alt="" width="80px">LA HOJA EN
+    <a class="brandfooter" href="index.html"><img class="logofooter" src="./imagenes/logo.png" alt="" width="80px">LA
+      HOJA EN
       BLANCO.</a>
     <div id="footerlist">
       <ul>

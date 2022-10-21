@@ -1,21 +1,31 @@
 let url = "./javascript/data.json"
-let datos
+let datos = []
 
 fetch(url)
     .then(response => response.json())
     .then(data => {
         console.log(data)
-        datos = data
-    }
-    );
+        datos = data.datos
 
-    var cad= ``
 
-    for (element of data){
-       cad=cad + `<img src=${imagen} alt="book_cover"></img>
+        let cad = `<div class="conteTarjetas">`
+
+        for (element of datos) {
+            cad += `
+        <div class="tarjeta"> 
+            <img src=${element.cover} alt="book_cover"></img>
+            <h4>${element.tittle}</h4>
+            <p>${element.author}</p>
+        </div>    
+    
        `
-    }
+       
+        }
+  cad=`
+           </div>
+              `
 
-
-    console.log (cad)
-    //document.getElementById("boxcontainer").innerHTML=cad
+console.log(cad)
+    document.getElementsByClassName("tarjeta").innerHTML=cad
+  }
+    );
