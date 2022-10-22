@@ -237,7 +237,15 @@
 
       <div id="app">
         <div class="mainCointainer">
-          
+          <div v-for="element in books" class="tarjeta">
+            <img src="{{element.cover}}" alt="">
+            <h4 class="info">{{element.tittle}}</h4>
+            <p class="info">{{element.author}}</p>
+           
+                
+              </div>
+           </div>
+          </div>
         </div>
 
       </div>
