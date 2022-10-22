@@ -103,6 +103,7 @@
         align-items: left;
         clip-path: circle(0 at center);
         font-size: 1.2em;
+        overflow-y: scroll;
     }
 
     .nav_input:checked+.nav_menu {
