@@ -4,7 +4,7 @@
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
-  font-family: 'Special Elite', 'IM Fell DW Pica SC', serif;
+  font-family: 'Noto Sans Mono', monospace;
 }
 
 body {
@@ -35,9 +35,7 @@ body {
   padding-bottom: 40px;
 }
 
-.conteTarjetas
-
-.tarjeta {
+.conteTarjetas .tarjeta {
   width: 200px;
   height: 320px;
   margin-top: 30px;
@@ -67,30 +65,30 @@ body {
 
 
 
-.carrousel{
+.carrousel {
   width: 100%;
 
 }
 
-.conteCarrousel{
+.conteCarrousel {
   width: 100%;
   height: 250px;
   overflow: hidden;
 }
 
-.itemCarrousel{
+.itemCarrousel {
   position: relative;
   width: 100%;
   height: 100%;
 
 }
 
-.itemCarrouselTarjeta{
+.itemCarrouselTarjeta {
   width: 100%;
   height: 100%;
 }
 
-.itemCarrouselArrows{
+.itemCarrouselArrows {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -104,38 +102,39 @@ body {
   padding: 20px;
 }
 
-.itemCarrouselArrows > i:hover {
+.itemCarrouselArrows>i:hover {
   cursor: pointer;
 }
 
-#itemCarrousel-1{
+#itemCarrousel-1 {
   background-color: rgb(226, 50, 50);
 }
 
-#itemCarrousel-2{
+#itemCarrousel-2 {
   background-color: rgb(50, 200, 226);
 }
 
-#itemCarrousel-3{
+#itemCarrousel-3 {
   background-color: rgb(200, 226, 50);
 }
 
-.conteCarrouselController{
+.conteCarrouselController {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
 }
 
-.conteCarrouselController > a{
+.conteCarrouselController>a {
   text-decoration: none;
   font-size: 2em;
   color: grey;
 }
 
-.itemCarrouselArrows > a > i{
+.itemCarrouselArrows>a>i {
   color: white;
 }
-.imgcarrusel{
+
+.imgcarrusel {
   width: 100%;
   height: 100%;
 }
@@ -164,6 +163,7 @@ h1 {
   font-size: 2.7em;
   font-weight: lighter;
   text-indent: none;
+  line-height: 50px;
 }
 
 .container1 {
@@ -172,22 +172,33 @@ h1 {
 }
 
 .seccion {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1f 1fr;
   border-width: 2px;
   margin: 80px;
   background-color: rgba(133, 21, 13, 0.066);
-
+  justify-content: center;
+  align-items: center;
 }
 
 
 .texto {
-  display: flex;
-  flex-direction: column;
-  align-items: left;
+  grid-column-start: 1;
   margin-left: 10%;
-  margin-top: 20px;
-  margin-bottom: 20px;
   line-height: 1.5em;
+  text-align: left;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+
+.texto2 {
+  grid-column-start: 2;
+  margin-left: 10%;
+  line-height: 1.5em;
+  text-align: left;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .seccion p {
@@ -205,14 +216,22 @@ h1 {
   height: 4px;
   width: 70px !important;
   margin-bottom: 10px;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 
 
 .foto {
-  display: block;
-  width: 40%;
+  grid-column-start: 2;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.foto2 {
+  grid-column-start: 1;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 
@@ -248,7 +267,8 @@ h1 {
   margin-bottom: 25px;
 }
 
-.texto-titulo h1, .texto-titulo h2 {
+.texto-titulo h1,
+.texto-titulo h2 {
   color: white;
 }
 
@@ -545,6 +565,73 @@ ACÁ EMPIEZA EL NAV
 
 .nav_menu {
   display: none;
+}
+
+.nav_label1 {
+  display: block;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 2;
+  color: white;
+  height: 100%;
+}
+
+.nav_label1:hover {
+  background-color: #902020;
+}
+
+#menu1 {
+  display: none;
+}
+
+.nav_menu1 {
+  display: block;
+  gap: 10em;
+  position: fixed;
+  top: 60px;
+  bottom: 0;
+  background-color: #902020;
+  width: 30%;
+  left: 0;
+  line-height: 1.2em;
+  align-items: left;
+
+  clip-path: circle(0 at center);
+  font-size: 1.2em;
+  overflow-y: auto;
+
+}
+
+.nav_menu1 ul {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.nav-list:hover {
+  background-color: rgb(117, 8, 0);
+  display: block;
+  padding: 4px;
+  padding-left: 50px;
+}
+
+.nav_input1:checked+.nav_menu1 {
+  clip-path: circle(100% at center);
+}
+
+.nav-category {
+  color: white;
+  font-size: 1.1em;
+  margin-bottom: 8px;
+  padding-left: 30px;
+}
+
+.nav-list {
+  color: white;
+  font-size: .85em;
+  font-weight: lighter;
+  padding-left: 50px;
 }
 
 /*

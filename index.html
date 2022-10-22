@@ -10,8 +10,7 @@
   <link rel="icon" href="./imagenes/favicon.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica+SC&family=Special+Elite&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./estilo/mediaQueries.css">
   <script defer src="./javascript/login.js"></script>
   <script src="./javascript/main.js"></script>
@@ -24,19 +23,116 @@
 
     <nav class="navbar">
       <a class="navitem" href="index.html">INICIO</a>
-      <a class="navitem" href="">CATÁLOGO</a>
+
+      <!-- COMIENZA LISTA CATEGORIAS LIBROS -->
+      <label for="menu1" class="nav_label1">
+        CATÁLOGO
+      </label>
+      <input type="checkbox" name="menu1" id="menu1" class="nav_input1">
+      <div class="nav_menu1">
+        <ul>
+          <li>
+            <p class="nav-category">Pasatiempo</p>
+          </li>
+          <li><a class="nav-list" href="">Interiorismo</a></li>
+          <li><a class="nav-list" href="">Cocina</a></li>
+          <li><a class="nav-list" href="">Pintura</a></li>
+          <li><a class="nav-list" href="">Decoracion</a></li>
+          <li><a class="nav-list" href="">Fotografía</a></li>
+          <li><a class="nav-list" href="">Música</a></li>
+        </ul>
+        <ul>
+          <li>
+            <p class="nav-category">Universitarios</p>
+          </li>
+          <li><a class="nav-list" href="">Economía</a></li>
+          <li><a class="nav-list" href="">Fisica y Química</a></li>
+          <li><a class="nav-list" href="">Historia</a></li>
+          <li><a class="nav-list" href="">Informática</a></li>
+          <li><a class="nav-list" href="">Arquitectura</a></li>
+          <li><a class="nav-list" href="">Ingeniería</a></li>
+          <li><a class="nav-list" href="">Medicina</a></li>
+        </ul>
+        <ul>
+          <li>
+            <p class="nav-category">Literatura</p>
+          </li>
+          <li><a class="nav-list" href="">Fantasía</a></li>
+          <li><a class="nav-list" href="">Policiales</a></li>
+          <li><a class="nav-list" href="">Drama</a></li>
+          <li><a class="nav-list" href="">Ciencia-Ficción</a></li>
+          <li><a class="nav-list" href="">Misterio</a></li>
+          <li><a class="nav-list" href="">Comedia Romántica</a></li>
+          <li><a class="nav-list" href="">Infantiles</a></li>
+        </ul>
+      </div>
+
+
+
+      <!-- TERMINA LISTA CATEGORIA -->
+
+
       <a class="navitem" href="about.html">NOSOTROS</a>
       <a class="navitem" href="contact.html">CONTACTO</a>
+
+      <!-- COMIENZA NAV VERSION MOBILE -->
       <label for="menu" class="nav_label">
         <img class="menuHamburguesa" src="./imagenes/menu.png" alt="menu">
       </label>
       <input type="checkbox" id="menu" class="nav_input">
       <div class="nav_menu">
         <a href="index.html" class="nav_item">Inicio</a>
-        <a href="" class="nav_item">Catálogo</a>
+        <!--COMIENZA CATALOGO HAMBURGUESA-->
+        <label for="menu2" class="nav_label2">
+          Catálogo
+        </label>
+        <input type="checkbox" name="menu2" id="menu2" class="nav_input2">
+        <div class="nav_menu2">
+          <ul>
+            <li>
+              <p class="nav-category">Pasatiempo</p>
+            </li>
+            <li><a class="nav-list" href="">Interiorismo</a></li>
+            <li><a class="nav-list" href="">Cocina</a></li>
+            <li><a class="nav-list" href="">Pintura</a></li>
+            <li><a class="nav-list" href="">Decoracion</a></li>
+            <li><a class="nav-list" href="">Fotografía</a></li>
+            <li><a class="nav-list" href="">Música</a></li>
+          </ul>
+          <ul>
+            <li>
+              <p class="nav-category">Universitarios</p>
+            </li>
+            <li><a class="nav-list" href="">Economía</a></li>
+            <li><a class="nav-list" href="">Fisica y Química</a></li>
+            <li><a class="nav-list" href="">Historia</a></li>
+            <li><a class="nav-list" href="">Informática</a></li>
+            <li><a class="nav-list" href="">Arquitectura</a></li>
+            <li><a class="nav-list" href="">Ingeniería</a></li>
+            <li><a class="nav-list" href="">Medicina</a></li>
+          </ul>
+          <ul>
+            <li>
+              <p class="nav-category">Literatura</p>
+            </li>
+            <li><a class="nav-list" href="">Fantasía</a></li>
+            <li><a class="nav-list" href="">Policiales</a></li>
+            <li><a class="nav-list" href="">Drama</a></li>
+            <li><a class="nav-list" href="">Ciencia-Ficción</a></li>
+            <li><a class="nav-list" href="">Misterio</a></li>
+            <li><a class="nav-list" href="">Comedia Romántica</a></li>
+            <li><a class="nav-list" href="">Infantiles</a></li>
+          </ul>
+        </div>
+
+        <!--TERMINA CATALOGO HAMBURGUESA-->
         <a href="about.html" class="nav_item">Nosotros</a>
         <a href="contact.html" class="nav_item">Contacto</a>
       </div>
+
+      <!-- TERMINA NAV VERSION MOBILE -->
+
+
       <div class="divnav" id="userdiv">
         <img class="userpic" src="./imagenes/user_blank.png" alt="" width="32px" onclick="showLogin()">
         <button id="mostrarlogin" type="button" name="button" onclick="showLogin()">INVITADO</button>
@@ -105,44 +201,44 @@
         <a href="#itemCarrousel-3">•</a>
       </div>
 
-    <div class="popup">
-      <div class="close-btn" onclick="hideLogin()">&times;</div>
-      <form id="loginForm" class="form" action="index.html" method="GET">
-        <h2>Inicia Sesión</h2>
-        <div class="form-element">
-          <label for="email">Email</label>
-          <input id="email" type="email" name="email" value="" placeholder="example@email.com" required>
-          <small id="error-email" class="error-form invisible">Por favor, introduzca una direccion válida!</small>
-        </div>
-        <div class="form-element">
-          <label for="password">Contraseña</label>
-          <input id="password" type="password" name="password" value="" placeholder="****" required>
-        </div>
-        <div class="form-element">
-          <input id="recordar" type="checkbox" name="" value="">
-          <label for="remember-me">Recordar Datos</label>
-        </div>
-        <div class="form-element">
-          <a href="#">Olvidaste la contraseña?</a>
-        </div>
-        <div class="form-element">
-          <button type="submit" name="button">Iniciar Sesión</button>
-        </div>
-        <div class="form-element-redirect">
-          <a href="registro.html">No tienes cuenta? Crea una</a>
-        </div>
-      </form>
-    </div>
-    <!-- CORTINA OSCURA DEL LOGIN -->
-    <div class="cortina" onclick="hideLogin()">
+      <div class="popup">
+        <div class="close-btn" onclick="hideLogin()">&times;</div>
+        <form id="loginForm" class="form" action="index.html" method="GET">
+          <h2>Inicia Sesión</h2>
+          <div class="form-element">
+            <label for="email">Email</label>
+            <input id="email" type="email" name="email" value="" placeholder="example@email.com" required>
+            <small id="error-email" class="error-form invisible">Por favor, introduzca una direccion válida!</small>
+          </div>
+          <div class="form-element">
+            <label for="password">Contraseña</label>
+            <input id="password" type="password" name="password" value="" placeholder="****" required>
+          </div>
+          <div class="form-element">
+            <input id="recordar" type="checkbox" name="" value="">
+            <label for="remember-me">Recordar Datos</label>
+          </div>
+          <div class="form-element">
+            <a href="#">Olvidaste la contraseña?</a>
+          </div>
+          <div class="form-element">
+            <button type="submit" name="button">Iniciar Sesión</button>
+          </div>
+          <div class="form-element-redirect">
+            <a href="registro.html">No tienes cuenta? Crea una</a>
+          </div>
+        </form>
+      </div>
+      <!-- CORTINA OSCURA DEL LOGIN -->
+      <div class="cortina" onclick="hideLogin()">
 
-    </div>
+      </div>
 
-    <!-- CONTENIDO PRINCIPAL DEL MAIN -->
+      <!-- CONTENIDO PRINCIPAL DEL MAIN -->
 
-    <div class="tarjeta">
+      <div class="tarjeta">
 
-    </div>
+      </div>
 
 
   </main>

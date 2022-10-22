@@ -1,4 +1,4 @@
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
 
     /*MAIN*/
     .main-layout {
@@ -13,99 +13,191 @@
         height: fit-content;
     }
 
+    .imgcarrusel {
+        width: fit-content;
+        object-fit: cover;
+    }
+
+    .conteCarrousel {
+        overflow-x: scroll;
+    }
+
     /*  ACÁ EMPIEZA FULL NAV  */
 
     .navitem {
-       display: none;
-   }
+        display: none;
+    }
 
-   .divnav {  /*  CONTENEDOR  */
-       flex-grow: 0;
-       gap: 20px
-   }
+    .divnav {
+        /*  CONTENEDOR  */
+        flex-grow: 0;
+        gap: 20px
+    }
 
-   #mostrarlogin {
-       display: none;
-   }
+    #mostrarlogin {
+        display: none;
+    }
 
-   #userdiv {
-     order: 3;
-     padding-right: 10px;
-   }
+    #userdiv {
+        order: 3;
+        padding-right: 10px;
+    }
 
-   #sbdiv {
-     order: 2;
-     flex-grow: 1;
-   }
+    #sbdiv {
+        order: 2;
+        flex-grow: 1;
+    }
 
     /*  TERMINA FULL NAV  */
 
     /*  ACÁ EMPIEZA MINI NAV  */
 
-   .menuHamburguesa {
-       display: flex;
-       width: 40px;
-       padding: 3px;
-       border-radius: 50%;
-   }
+    .menuHamburguesa {
+        display: flex;
+        width: 40px;
+        padding: 3px;
+        border-radius: 50%;
+
+    }
 
 
-   #menu {
-       display: none;
-   }
+    #menu {
+        display: none;
+    }
 
-   .nav_menu {
-       display: grid;
-       grid-auto-flow: row;
-       gap: 3em;
-   }
 
-   .nav_item {
-       color: snow;
-       text-decoration: none;
-       width: 100%;
-       text-align: center;
-       line-height: 80px;
-       height: 80px;
-   }
+    .nav_item {
+        grid-column: 2;
+        color: snow;
+        text-decoration: none;
+        width: 100%;
+        padding-left: 40px;
+        line-height: 80px;
+        height: 80px;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
 
-   .nav_item:hover {
-     background-color: Maroon;
-   }
+    .nav_item:hover {
+        background-color: Maroon;
 
-   .nav_label {
-       display: block;
-       cursor: pointer;
-   }
+    }
 
-   .nav_menu {
-       position: fixed;
-       top: 60px;
-       bottom: 0;
-       background-color: #902020;
-       width: 100%;
-       left: 0;
-       display: flex;
-       justify-content: center;
-       gap: 70px;
-       flex-direction: column;
-       align-items: center;
-       clip-path: circle(0 at center);
-       font-size: 1.2em;
-   }
+    .nav_label {
+        display: block;
+        cursor: pointer;
 
-   .nav_input:checked+.nav_menu {
-       clip-path: circle(100% at center);
-   }
+    }
+
+    .nav_menu {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        background-color: #902020;
+        align-items: center;
+        position: fixed;
+        top: 60px;
+        bottom: 0;
+        width: 100%;
+        justify-content: center;
+        align-items: left;
+        clip-path: circle(0 at center);
+        font-size: 1.2em;
+    }
+
+    .nav_input:checked+.nav_menu {
+        clip-path: circle(100% at center);
+    }
+
+    .nav_menu1 {
+        display: none;
+    }
+
+    .nav_label1 {
+        display: none;
+    }
+
+    /*COMIENZA CATalogo DENTRO DEL NAV*/
+    .nav_label2 {
+        display: flex;
+        width: 100%;
+        cursor: pointer;
+        grid-row-start: 2;
+        align-items: left;
+        color: white;
+        line-height: 80px;
+        height: 80px;
+        padding-left: 40px;
+    }
+
+    .nav_label2:hover {
+
+        background-color: Maroon;
+    }
+
+    #menu2 {
+        display: none;
+    }
+
+    .nav_menu2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        z-index: -1;
+        width: 100%;
+        gap: 1em;
+        position: fixed;
+        top: 60px;
+        bottom: 0;
+        line-height: 1em;
+        align-items: right;
+        clip-path: circle(0 at center);
+        font-size: 1.2em;
+        overflow-y: auto;
+    }
+
+    .nav_menu2 ul {
+        grid-column-start: 2;
+
+    }
+
+    .nav-list:hover {
+        background-color: rgb(117, 8, 0);
+        display: block;
+        padding: 4px;
+        padding-left: 15px;
+    }
+
+    .nav_input2:checked+.nav_menu2 {
+        clip-path: circle(100% at center);
+    }
+
+    .nav-category {
+        color: white;
+        font-size: .8em;
+        margin-bottom: 8px;
+        padding-left: 10px;
+    }
+
+    .nav-list {
+        color: white;
+        font-size: .6em;
+        font-weight: lighter;
+        padding-left: 15px;
+    }
+
+
+    /*TERMINA CATalogo DENTRO DEL NAV*/
 
     /* ACÁ TERMINA EL MINI NAV*/
 
     /* POPUP*/
     .popup {
-        width: 340px;;
+        width: 340px;
+        ;
 
     }
-/*termina POPUP*/
+
+    /*termina POPUP*/
 
     /*FOOTER*/
 
@@ -120,7 +212,7 @@
     }
 
     .logofooter {
-     width: 55px;
+        width: 55px;
     }
 
     .brandfooter img {
@@ -143,7 +235,7 @@
     .ftr-list {
         color: white;
         font-size: 1.2em;
-        line-height:1.2em;
+        line-height: 1.2em;
     }
 
 
@@ -154,47 +246,49 @@
     }
 
     /*termina FOOTER*/
-/*About*/
+    /*About*/
 
 
-  .tituloaboutus {
-    font-size: 3em;
+    .tituloaboutus {
+        font-size: 3em;
 
-  }
+    }
 
-  .seccion h2 {
-    color: rgb(133, 21, 13);
-    font-size: 2em;
+    .seccion h2 {
+        color: rgb(133, 21, 13);
+        font-size: 2em;
 
-  }
+    }
 
-  .container1 {
-    display: block;
+    .container1 {
+        display: block;
 
-  }
+    }
 
-  .seccion {
-    display: flex;
-    flex-direction: column;
-    border-width: 2px;
-    margin: 40px 30px 60px 30px;
-    background-color: rgba(133, 21, 13, 0.066);
+    .seccion {
+        display: flex;
+        flex-direction: column;
+        border-width: 2px;
+        margin: 40px 30px 60px 30px;
+        background-color: rgba(133, 21, 13, 0.066);
 
-  }
-
-
-  .texto {
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    margin-left: 10%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    line-height: 1.5em;
-  }
+    }
 
 
-  .foto {
-    width: 100%;
+    .texto {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        margin-left: 10%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        line-height: 1.5em;
+    }
 
-  }
+
+    .foto {
+        width: 100%;
+
+    }
+
+    @media only screen and (max-width: 1280px) {}
