@@ -22,17 +22,13 @@ body {
   width: 700px;
 }
 
-.mainContainer {
+.mainCointainer {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-around;
-  gap: 80px;
-  align-items: center;
-  margin-left: 110px;
-  margin-right: 110px;
-  margin-top: 10px;
-  padding-bottom: 40px;
+  margin: 20px;
+  
 }
 
 .tarjeta {
@@ -60,6 +56,8 @@ body {
 .info {
   text-align: center;
   text-decoration: none;
+  margin-top: 10px;
+  overflow: hidden;
 }
 
 /*
@@ -283,7 +281,7 @@ h1 {
 }
 
 .registro-main {
-  background-image: linear-gradient(to right, #750800 75%, #dfd2d2);
+  background-image: linear-gradient(to right, #750800 75%, #750800);
 }
 
 .registro-main .registro-container {
