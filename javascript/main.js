@@ -1,4 +1,4 @@
-let url = "./javascript/data.json"
+let url = "./data.json"
 let datos = []
 
 fetch(url)
@@ -12,14 +12,14 @@ fetch(url)
 
         for (element of datos) {
             cad += `
-        <div class="tarjeta"> 
+        <div class="tarjeta">
             <img src=${element.cover} alt="book_cover"></img>
             <h4>${element.tittle}</h4>
             <p>${element.author}</p>
-        </div>    
-    
+        </div>
+
        `
-       
+
         }
   cad=`
            </div>

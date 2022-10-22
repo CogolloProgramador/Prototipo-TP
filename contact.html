@@ -9,8 +9,9 @@
     <link rel="stylesheet" href="./estilo/style.css">
     <link href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica+SC&family=Special+Elite&display=swap"
       rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./estilo/mediaQueries.css">
-    <script src="./javascript/test.js"></script>
+    <script src="./javascript/login.js"></script>
   </head>
   <body>
     <header>
@@ -48,22 +49,22 @@
       <div class="contacto-contenido">
         <div class="contacto-info">
           <p>Mandanos un email a: contacto@hojaenblanco.com.ar</p>
-          <p>Llamanos a: 11 222 333 444</p>
+          <p>Llamanos al: 1 22 333 4444</p>
         </div>
-        <ul>
-          <li><a href=""></a></li>
-          <li><a href=""></a></li>
-          <li><a href=""></a></li>
+        <ul class="redes">
+          <li><a href="" class="fa fa-instagram"> Instagram</a></li>
+          <li><a href="" class="fa fa-twitter"> Twitter</a></li>
+          <li><a href="" class="fa fa-facebook"> Facebook</a></li>
         </ul>
         <form class="datos-contacto" action="index.html" method="post">
           <label for="nombre">Tu nombre: </label>
-          <input type="text" name="nombre" value="">
+          <input type="text" name="nombre" value="" required>
           <label for="motivo">Motivo del mensaje: </label>
-          <input type="text" name="motivo" value="">
-          <label for="email">Tu Email</label>
-          <input type="email" name="email" value="">
-          <label for="telefono">Telefono</label>
-          <input type="text" name="telefono" value="">
+          <input type="text" name="motivo" value="" required>
+          <label for="email">Tu Email:</label>
+          <input type="email" name="email" value="" required>
+          <label for="telefono">Telefono:</label>
+          <input type="number" name="telefono" value="" required>
           <div class="contenedor-msjbox">
             <!-- <input class="msj-box" type="text" name="" value="" placeholder="Escribí tu mensaje acá..."> -->
             <textarea id="txtarea" class="msj-box" name="msj" value="" rows="7" cols="40" placeholder="Escribí tu mensaje acá..."></textarea>
@@ -77,15 +78,16 @@
       <!-- Login -->
       <div class="popup">
         <div class="close-btn" onclick="hideLogin()">&times;</div>
-        <div class="form">
+        <form id="loginForm" class="form" action="index.html" method="GET">
           <h2>Inicia Sesión</h2>
           <div class="form-element">
             <label for="email">Email</label>
-            <input id="email" type="text" name="" value="" placeholder="example@email.com">
+            <input id="email" type="email" name="email" value="" placeholder="example@email.com" required>
+            <small id="error-email" class="error-form invisible">Por favor, introduzca una direccion válida!</small>
           </div>
           <div class="form-element">
             <label for="password">Contraseña</label>
-            <input id="password" type="password" name="" value="" placeholder="****">
+            <input id="password" type="password" name="password" value="" placeholder="****" required>
           </div>
           <div class="form-element">
             <input id="recordar" type="checkbox" name="" value="">
@@ -95,13 +97,14 @@
             <a href="#">Olvidaste la contraseña?</a>
           </div>
           <div class="form-element">
-            <button type="button" name="button">Iniciar Sesión</button>
+            <button type="submit" name="button">Iniciar Sesión</button>
           </div>
           <div class="form-element-redirect">
             <a href="registro.html">No tienes cuenta? Crea una</a>
           </div>
-        </div>
+        </form>
       </div>
+      <!-- CORTINA OSCURA DEL LOGIN -->
       <div class="cortina" onclick="hideLogin()">
 
       </div>

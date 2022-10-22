@@ -13,7 +13,7 @@
   <link href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica+SC&family=Special+Elite&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="./estilo/mediaQueries.css">
-  <script src="./javascript/test.js"></script>
+  <script src="./javascript/login.js"></script>
 </head>
 
 <body>
@@ -121,15 +121,16 @@
     <!-- Login -->
     <div class="popup">
       <div class="close-btn" onclick="hideLogin()">&times;</div>
-      <div class="form">
+      <form id="loginForm" class="form" action="index.html" method="GET">
         <h2>Inicia Sesión</h2>
         <div class="form-element">
           <label for="email">Email</label>
-          <input id="email" type="text" name="" value="" placeholder="example@email.com">
+          <input id="email" type="email" name="email" value="" placeholder="example@email.com" required>
+          <small id="error-email" class="error-form invisible">Por favor, introduzca una direccion válida!</small>
         </div>
         <div class="form-element">
           <label for="password">Contraseña</label>
-          <input id="password" type="password" name="" value="" placeholder="****">
+          <input id="password" type="password" name="password" value="" placeholder="****" required>
         </div>
         <div class="form-element">
           <input id="recordar" type="checkbox" name="" value="">
@@ -139,16 +140,18 @@
           <a href="#">Olvidaste la contraseña?</a>
         </div>
         <div class="form-element">
-          <button type="button" name="button">Iniciar Sesión</button>
+          <button type="submit" name="button">Iniciar Sesión</button>
         </div>
         <div class="form-element-redirect">
           <a href="registro.html">No tienes cuenta? Crea una</a>
         </div>
-      </div>
+      </form>
     </div>
+    <!-- CORTINA OSCURA DEL LOGIN -->
     <div class="cortina" onclick="hideLogin()">
 
     </div>
+    
   </main>
   <footer>
     <a class="brandfooter" href="#"><img class="logofooter" src="./imagenes/logo.png" alt="" width="80px">LA HOJA EN

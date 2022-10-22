@@ -13,7 +13,7 @@
   <link href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica+SC&family=Special+Elite&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="./estilo/mediaQueries.css">
-  <script src="./javascript/test.js"></script>
+  <script defer src="./javascript/login.js"></script>
   <script src="./javascript/main.js"></script>
   <script src="./javascript/data.json"></script>
 </head>
@@ -104,43 +104,46 @@
         <a href="#itemCarrousel-2">•</a>
         <a href="#itemCarrousel-3">•</a>
       </div>
-      
 
-
-        <div class="popup">
-          <div class="close-btn" onclick="hideLogin()">&times;</div>
-          <div class="form">
-            <h2>Inicia Sesión</h2>
-            <div class="form-element">
-              <label for="email">Email</label>
-              <input id="email" type="text" name="" value="" placeholder="example@email.com">
-            </div>
-            <div class="form-element">
-              <label for="password">Contraseña</label>
-              <input id="password" type="password" name="" value="" placeholder="****">
-            </div>
-            <div class="form-element">
-              <input id="recordar" type="checkbox" name="" value="">
-              <label for="remember-me">Recordar Datos</label>
-            </div>
-            <div class="form-element">
-              <a href="#">Olvidaste la contraseña?</a>
-            </div>
-            <div class="form-element">
-              <button type="button" name="button">Iniciar Sesión</button>
-            </div>
-            <div class="form-element-redirect">
-              <a href="registro.html">No tienes cuenta? Crea una</a>
-            </div>
-          </div>
+    <div class="popup">
+      <div class="close-btn" onclick="hideLogin()">&times;</div>
+      <form id="loginForm" class="form" action="index.html" method="GET">
+        <h2>Inicia Sesión</h2>
+        <div class="form-element">
+          <label for="email">Email</label>
+          <input id="email" type="email" name="email" value="" placeholder="example@email.com" required>
+          <small id="error-email" class="error-form invisible">Por favor, introduzca una direccion válida!</small>
         </div>
-        <div class="cortina" onclick="hideLogin()">
-
+        <div class="form-element">
+          <label for="password">Contraseña</label>
+          <input id="password" type="password" name="password" value="" placeholder="****" required>
         </div>
-        <div class="tarjeta">
-
+        <div class="form-element">
+          <input id="recordar" type="checkbox" name="" value="">
+          <label for="remember-me">Recordar Datos</label>
         </div>
-        
+        <div class="form-element">
+          <a href="#">Olvidaste la contraseña?</a>
+        </div>
+        <div class="form-element">
+          <button type="submit" name="button">Iniciar Sesión</button>
+        </div>
+        <div class="form-element-redirect">
+          <a href="registro.html">No tienes cuenta? Crea una</a>
+        </div>
+      </form>
+    </div>
+    <!-- CORTINA OSCURA DEL LOGIN -->
+    <div class="cortina" onclick="hideLogin()">
+
+    </div>
+
+    <!-- CONTENIDO PRINCIPAL DEL MAIN -->
+
+    <div class="tarjeta">
+
+    </div>
+
 
   </main>
 
@@ -198,31 +201,6 @@
     <p id="derechos">Los Pibes © 2022 · Codo a Codo 22522</p>
   </footer>
 
-  <script src="https://kit.fontawesome.com/887a835504.js" crossorigin="anonymous"></script>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
-  <script type="text/javascript">
-    // document.querySelector("#mostrarlogin").addEventListener("click", function () {
-    //   // document.querySelector(".popup").classList.add("active");
-    //   // document.querySelector(".cortina").classList.add("curtainActive");
-    // });
-    // document.querySelector(".popup .close-btn").addEventListener("click", function () {
-    //   document.querySelector(".popup").classList.remove("active");
-    //   document.querySelector(".cortina").classList.remove("curtainActive");
-    // });
-    // document.querySelector("#mostrarlogin600px").addEventListener("click", function () {
-    //   document.querySelector(".popup").classList.add("active");
-    //   document.querySelector(".cortina").classList.add("curtainActive");
-    // });
-
-  </script>
 </body>
 
 </html>
