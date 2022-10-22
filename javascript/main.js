@@ -1,16 +1,58 @@
-let url = "./data.json"
-let datos = []
+const { createApp } = Vue  //creo un objeto VUE llamdo createApp
+
+  createApp({
+    data() {
+      return {
+       
+        url:'./data.json',
+        books:[]
+      } 
+    },   
+    methods: {
+      fetchData(url) {
+
+          fetch(url)
+              .then(response => response.json())
+              .then(data => { 
+                  this.books=data.books
+                  console.log(this.books)
+              })
+
+      }
+  },
+    created(){
+
+      this.fetchData(this.url) 
+    }
+
+    
+  }).mount('#app')
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*let url = "./data.json"
+let libros = []
 
 fetch(url)
     .then(response => response.json())
     .then(data => {
         console.log(data)
-        datos = data.datos
+        libros = data.libros
 
 
         let cad = `<div class="conteTarjetas">`
 
-        for (element of datos) {
+        for (element of libros) {
             cad += `
         <div class="tarjeta">
             <img src=${element.cover} alt="book_cover"></img>
@@ -29,3 +71,4 @@ console.log(cad)
     document.getElementsByClassName("tarjeta").innerHTML=cad
   }
     );
+*/
