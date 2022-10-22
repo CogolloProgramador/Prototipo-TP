@@ -4,7 +4,7 @@ const { createApp } = Vue  //creo un objeto VUE llamdo createApp
     data() {
       return {
        
-        url:'./data.json',
+        url:'./javascript/data.json',
         books:[]
       } 
     },   
