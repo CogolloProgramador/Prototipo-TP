@@ -150,9 +150,9 @@
   </header>
 
   <main>
-    <div class="aboutus">
+    
       <h1 class="tituloaboutus">Quiénes somos</h1>
-    </div>
+    
     <div class="container1">
       <div class="seccion">
         <div class="texto">
@@ -205,7 +205,7 @@
 
       </div>
       <!--<img class="foto" src="./imagenes/historia.jpg" alt="celular con libro">-->
-      <iframe class="foto" width="560" height="315" src="https://www.youtube.com/embed/q2r1MIfGZrU"
+      <iframe class="foto" width="560" height="560" src="https://www.youtube.com/embed/q2r1MIfGZrU"
         title="YouTube video player" frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen></iframe>
@@ -257,12 +257,13 @@
 
   </main>
   <footer>
-    <a class="brandfooter" href="#"><img class="logofooter" src="./imagenes/logo.png" alt="" width="80px">LA HOJA EN
+    <a class="brandfooter" href="index.html"><img class="logofooter" src="./imagenes/logo.png" alt="" width="80px">LA
+      HOJA EN
       BLANCO.</a>
     <div id="footerlist">
       <ul>
         <li>
-          <p class="ftr-category">Universitarios</p>
+          <p class="ftr-category">Pasatiempo</p>
         </li>
         <li><a class="ftr-list" href="">Interiorismo</a></li>
         <li><a class="ftr-list" href="">Cocina</a></li>
@@ -273,7 +274,7 @@
       </ul>
       <ul>
         <li>
-          <p class="ftr-category">Pasatiempo</p>
+          <p class="ftr-category">Universitarios</p>
         </li>
         <li><a class="ftr-list" href="">Economía</a></li>
         <li><a class="ftr-list" href="">Fisica y Química</a></li>
@@ -299,37 +300,15 @@
         <li>
           <p class="ftr-category">Nosotros</p>
         </li>
-        <li><a class="ftr-list" href="">Inicio</a></li>
+        <li><a class="ftr-list" href="index.html">Inicio</a></li>
         <li><a class="ftr-list" href="">Categorías</a></li>
-        <li><a class="ftr-list" href="">Quiénes Somos</a></li>
+        <li><a class="ftr-list" href="about.html">Quiénes Somos</a></li>
         <li><a class="ftr-list" href="">Contacto</a></li>
         <li><a class="ftr-list" href="">Perfil</a></li>
       </ul>
     </div>
     <p id="derechos">Los Pibes © 2022 · Codo a Codo 22522</p>
   </footer>
-  <div class="cortina">
-
-  </div>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
-  <script type="text/javascript">
-    document.querySelector("#mostrarlogin").addEventListener("click", function () {
-      document.querySelector(".popup").classList.add("active");
-      document.querySelector(".cortina").classList.add("curtainActive");
-    });
-    document.querySelector(".popup .close-btn").addEventListener("click", function () {
-      document.querySelector(".popup").classList.remove("active");
-      document.querySelector(".cortina").classList.remove("curtainActive");
-    });
-  </script>
 </body>
 
 </html>

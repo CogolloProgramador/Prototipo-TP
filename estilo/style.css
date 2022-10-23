@@ -15,6 +15,16 @@ body {
     ACÁ EMPIEZA EL INDEX MAIN
 */
 
+.titulo1{
+  
+    font-size: 2em;
+    text-align: center;
+    background-color: rgba(133, 21, 13, 0.149);
+    padding: 20px;
+    box-shadow: 0px 0px 7px rgba(20, 20, 20, 0.205);
+  margin: 0;
+}
+
 .banner {
   display: block;
   padding-top: 70px;
@@ -269,19 +279,29 @@ h1 {
   background-color: rgba(133, 21, 13, 0.171);
   transition: 0.7s;
 }
+.seccion2:hover {
+  transform: scale(1.05, 1.05);
+  background-color: rgba(133, 21, 13, 0.171);
+  transition: 0.7s;
+}
 
 /* TERMINA 'SOBRE NOSOTROS' */
 
 /* EMPIEZA 'REGISTRO DE USUARIO' */
 
-.espacio-nav {
+/*.espacio-nav {
   display: block;
   width: 100%;
   height: 60px;
-}
+  
+}*/
 
 .registro-main {
   background-image: linear-gradient(to right, #750800 75%, #750800);
+ display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 0fr 1fr 3.4fr;
+
 }
 
 .registro-main .registro-container {
@@ -289,16 +309,32 @@ h1 {
 }
 
 .texto-titulo {
+  display: flex;
+  flex-direction: column;
   background-color: rgba(133, 21, 13, .9);
   padding: 20px;
   box-shadow: 0px 0px 7px rgb(20, 20, 20);
-  text-align: left;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   margin-bottom: 25px;
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
 
-.texto-titulo h1,
+.texto-titulo h1{
+  margin-bottom: 20px;
+  margin-top: 60px;
+  color: white;
+}
 .texto-titulo h2 {
   color: white;
+  font-size: 1.3em;
+}
+
+.registro-container{
+ grid-row-start: 3;
+ grid-row-end: 4;
 }
 
 .registro-container .registro-datos {
@@ -371,6 +407,15 @@ h1 {
 /* TERMINA 'REGISTRO DE USUARIO' */
 
 /* ACÁ EMPIEZA 'CONTACTO' */
+
+.contactanos{
+  font-size: 2em;
+  text-align: center;
+  background-color: rgba(133, 21, 13, 0.149);
+  padding: 20px;
+  box-shadow: 0px 0px 7px rgba(20, 20, 20, 0.205);
+margin: 0;
+}
 
 .contacto-contenido {
   padding-bottom: 40px;

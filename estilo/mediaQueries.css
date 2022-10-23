@@ -1,3 +1,66 @@
+@media only screen and (max-width: 1280px) {
+
+    .navitem {
+        font-size: small;
+    }
+
+    .nav_label1 {
+        font-size: small;
+    }
+
+    #mostrarlogin {
+        font-size: small;
+    }
+
+    .brandfooter {
+        font-size: 2.5em;
+    }
+
+    .ftr-category {
+        font-size: 1.3em;
+    }
+
+    .ftr-list {
+        font-size: 1.1em;
+    }
+
+    /*EMPIEZA ABOUT*/
+    .tituloaboutus {
+        font-size: 3em;
+    }
+
+    .seccion {
+        margin: 50px 15px 15px 15px;
+    }
+
+    .seccion2 {
+        margin: 50px 15px 15px 15px;
+    }
+
+    .seccion h2 {
+        font-size: 1.7em;
+        line-height: 30px;
+    }
+
+    .seccion p {
+
+        font-size: 1em;
+    }
+
+    .seccion2 h2 {
+        font-size: 1.7em;
+        line-height: 30px;
+    }
+
+    .seccion2 p {
+
+        font-size: 1em;
+    }
+
+    /*TERMINA ABOUT*/
+
+}
+
 @media only screen and (max-width: 700px) {
 
     /*MAIN*/
@@ -6,6 +69,10 @@
         align-items: center;
         margin-left: 0px;
         margin-right: 0px;
+    }
+
+    .titulo1 {
+        font-size: 1.4em;
     }
 
     .banner {
@@ -147,6 +214,8 @@
         width: 100%;
         gap: 1em;
         position: fixed;
+        padding-top: 10px;
+        padding-bottom: 10px;
         top: 60px;
         bottom: 0;
         line-height: 1em;
@@ -208,7 +277,7 @@
         flex-wrap: wrap;
         text-align: center;
         width: 100%;
-        font-size: 2em;
+        font-size: 1.6em;
 
     }
 
@@ -235,41 +304,38 @@
 
     .ftr-list {
         color: white;
-        font-size: 1.2em;
+        font-size: 1.1em;
         line-height: 1.2em;
     }
 
 
     .ftr-category {
         color: white;
-        font-size: 1.4em;
+        font-size: 1.3em;
         margin-bottom: 8px;
     }
 
     /*termina FOOTER*/
-    /*About*/
+    /*comienza About*/
 
 
     .tituloaboutus {
-        font-size: 3em;
+        font-size: 2.7em;
 
     }
 
     .seccion h2 {
         color: rgb(133, 21, 13);
-        font-size: 2em;
+        font-size: 1.7em;
+
 
     }
 
     .seccion2 h2 {
         color: rgb(133, 21, 13);
-        font-size: 2em;
+        font-size: 1.7em;
     }
 
-    .container1 {
-        display: block;
-
-    }
 
     .seccion {
         display: flex;
@@ -293,43 +359,34 @@
         display: flex;
         flex-direction: column;
         align-items: left;
-        margin-left: 10%;
+        margin-left: ;
         margin-top: 20px;
+        margin-left: 0%;
         margin-bottom: 20px;
         line-height: 1.5em;
     }
 
+    .texto2 {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        margin-left: ;
+        margin-top: 20px;
+        margin-left: 0%;
+        margin-bottom: 20px;
+        line-height: 1.5em;
+    }
 
     .foto {
         width: 100%;
-
-    }
-}
-
-@media only screen and (max-width: 1280px) {
-
-    .navitem {
-        font-size: small;
+        height: 300px;
     }
 
-    .nav_label1 {
-        font-size: small;
+    /*termina About*/
+    /*contacto*/
+    .registro-main {
+        grid-template-rows: 0fr 1fr 2.8fr;
     }
 
-    #mostrarlogin {
-        font-size: small;
-    }
-
-    .brandfooter {
-        font-size: 2.5em;
-    }
-
-    .ftr-category {
-        font-size: 1.3em;
-    }
-
-    .ftr-list {
-        font-size: 1.1em;
-    }
 
 }
