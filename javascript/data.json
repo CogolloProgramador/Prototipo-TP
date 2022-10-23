@@ -5,546 +5,546 @@
             "category": "Novelas de aventura",
             "tittle": "Un capitán de quince años",
             "author": "Julio Verne",
-            "cover": "/imagenes/covers/ndav1.jpg"
+            "cover": "./imagenes/covers/ndav1.jpg"
         },
         {
             "id": 2,
             "category": "Novelas de aventura",
             "tittle": "El faro del fin del mundo",
             "author": "Julio Verne",
-            "cover": "/imagenes/covers/ndav2.jpg"
+            "cover": "./imagenes/covers/ndav2.jpg"
         },
         {
             "id": 3,
             "category": "Novelas de aventura",
             "tittle": "Miguel Strogoff, el correo del zar",
             "author": "Julio Verne",
-            "cover": "/imagenes/covers/ndav3.jpg"
+            "cover": "./imagenes/covers/ndav3.jpg"
         },
         {
             "id": 4,
             "category": "Novelas de aventura",
             "tittle": "La isla del tesoro",
             "author": "Robert Louis Stevenson",
-            "cover": "/imagenes/covers/ndav4.jpg"
+            "cover": "./imagenes/covers/ndav4.jpg"
         },
         {
             "id": 5,
             "category": "Novelas de aventura",
             "tittle": "La flecha negra",
             "author": "Robert Louis Stevenson",
-            "cover": "/imagenes/covers/ndav5.jpg"
+            "cover": "./imagenes/covers/ndav5.jpg"
         },
         {
             "id": 6,
             "category": "Novelas de aventura",
             "tittle": "Las aventuras de Tom Sawyer",
             "author": "Mark Twain",
-            "cover": "/imagenes/covers/ndav6.jpg"
+            "cover": "./imagenes/covers/ndav6.jpg"
         },
         {
             "id": 7,
             "category": "Novelas de aventura",
             "tittle": "El último mohicano",
             "author": "James Fenimore Cooper",
-            "cover": "/imagenes/covers/ndav7.jpg"
+            "cover": "./imagenes/covers/ndav7.jpg"
         },
         {
             "id": 8,
             "category": "Novelas de aventura",
             "tittle": "Robinson Crusoe",
             "author": "Daniel Defoe",
-            "cover": "/imagenes/covers/ndav8.jpg"
+            "cover": "./imagenes/covers/ndav8.jpg"
         },
         {
             "id": 9,
             "category": "Novelas de aventura",
             "tittle": "Kim de la India",
             "author": "Rudyard Kipling",
-            "cover": "/imagenes/covers/ndav9.jpg"
+            "cover": "./imagenes/covers/ndav9.jpg"
         },
         {
             "id": 10,
             "category": "Novelas de aventura",
             "tittle": "Los tigres de Mompracem",
             "author": "Emilio Salgari",
-            "cover": "/imagenes/covers/ndav10.jpg"
+            "cover": "./imagenes/covers/ndav10.jpg"
         },
         {
             "id": 11,
             "category": "Novelas de ciencia ficcion",
             "tittle": "La máquina del tiempo",
             "author": "Herbert George Wells",
-            "cover": "/imagenes/covers/ndcf1.jpg"
+            "cover": "./imagenes/covers/ndcf1.jpg"
         },
         {
             "id": 12,
             "category": "Novelas de ciencia ficcion",
             "tittle": "En las montañas de la locura",
             "author": "H.P. Lovecraft",
-            "cover": "/imagenes/covers/ndcf2.jpg"
+            "cover": "./imagenes/covers/ndcf2.jpg"
         },
         {
             "id": 13,
             "category": "Novelas de ciencia ficcion",
             "tittle": "1984",
             "author": "George Orwell",
-            "cover": "/imagenes/covers/ndcf3.jpg"
+            "cover": "./imagenes/covers/ndcf3.jpg"
         },
         {
             "id": 14,
             "category": "Novelas de ciencia ficcion",
             "tittle": "Fahrenheit 451",
             "author": "Ray Bradbury",
-            "cover": "/imagenes/covers/ndcf4.jpg"
+            "cover": "./imagenes/covers/ndcf4.jpg"
         },
         {
             "id": 15,
             "category": "Novelas de ciencia ficcion",
             "tittle": "Soy leyenda",
             "author": "Richard Matheson",
-            "cover": "/imagenes/covers/ndcf5.jpg"
+            "cover": "./imagenes/covers/ndcf5.jpg"
         },
         {
             "id": 16,
             "category": "Novelas de ciencia ficcion",
             "tittle": "El fin de la eternidad",
             "author": "Isaac Asimov",
-            "cover": "/imagenes/covers/ndcf6.jpg"
+            "cover": "./imagenes/covers/ndcf6.jpg"
         },
         {
             "id": 17,
             "category": "Novelas de ciencia ficcion",
             "tittle": "Las estrellas, mi destino",
             "author": "Alfred Bester",
-            "cover": "/imagenes/covers/ndcf7.jpg"
+            "cover": "./imagenes/covers/ndcf7.jpg"
         },
         {
             "id": 18,
             "category": "Novelas de ciencia ficcion",
             "tittle": "Solaris",
             "author": "Stanislaw Lem",
-            "cover": "/imagenes/covers/ndcf8.jpg"
+            "cover": "./imagenes/covers/ndcf8.jpg"
         },
         {
             "id": 19,
             "category": "Novelas de ciencia ficcion",
             "tittle": "Dune",
             "author": "Frank Herbert",
-            "cover": "/imagenes/covers/ndcf9.jpg"
+            "cover": "./imagenes/covers/ndcf9.jpg"
         },
         {
             "id": 20,
             "category": "Novelas de ciencia ficcion",
             "tittle": "Matadero Cinco",
             "author": "Kurt Vonnegut",
-            "cover": "/imagenes/covers/ndcf10.jpg"
+            "cover": "./imagenes/covers/ndcf10.jpg"
         },
         {
             "id": 21,
             "category": "Cuentos infantiles",
             "tittle": "El ascensor",
             "author": "Yael Frankel",
-            "cover": "/imagenes/covers/ci1.jpg"
+            "cover": "./imagenes/covers/ci1.jpg"
         },
         {
             "id": 22,
             "category": "Cuentos infantiles",
             "tittle": "Isla",
             "author": "Mariana Ruiz Johnson y Lui Mort",
-            "cover": "/imagenes/covers/ci2.jpg"
+            "cover": "./imagenes/covers/ci2.jpg"
         },
         {
             "id": 23,
             "category": "Cuentos infantiles",
             "tittle": "Letras sueltas",
             "author": "Juan Lima",
-            "cover": "/imagenes/covers/ci3.jpg"
+            "cover": "./imagenes/covers/ci3.jpg"
         },
         {
             "id": 24,
             "category": "Cuentos infantiles",
             "tittle": "La fuerza escondida",
             "author": "Paula Bombara",
-            "cover": "/imagenes/covers/ci4.jpg"
+            "cover": "./imagenes/covers/ci4.jpg"
         },
         {
             "id": 25,
             "category": "Cuentos infantiles",
             "tittle": "La trampa del mapache",
             "author": "Amaia Valdemoro",
-            "cover": "/imagenes/covers/ci5.jpg"
+            "cover": "./imagenes/covers/ci5.jpg"
         },
         {
             "id": 26,
             "category": "Cuentos infantiles",
             "tittle": "Iluminasaurios",
             "author": "Lucy Brownridge",
-            "cover": "/imagenes/covers/ci6.jpg"
+            "cover": "./imagenes/covers/ci6.jpg"
         },
         {
             "id": 27,
             "category": "Cuentos infantiles",
             "tittle": "Los Goonies, historia ilustrada",
             "author": "Brooke Vitale",
-            "cover": "/imagenes/covers/ci7.jpg"
+            "cover": "./imagenes/covers/ci7.jpg"
         },
         {
             "id": 28,
             "category": "Cuentos infantiles",
             "tittle": "El cerdito de Navidad",
             "author": "J.K. Rowling",
-            "cover": "/imagenes/covers/ci8.jpg"
+            "cover": "./imagenes/covers/ci8.jpg"
         },
         {
             "id": 29,
             "category": "Cuentos infantiles",
             "tittle": "El pequeño manipulador",
             "author": "Bartosz Sztybor",
-            "cover": "/imagenes/covers/ci9.jpg"
+            "cover": "./imagenes/covers/ci9.jpg"
         },
         {
             "id": 30,
             "category": "Cuentos infantiles",
             "tittle": "El circo abominable",
             "author": "Llanos Campos Martínez",
-            "cover": "/imagenes/covers/ci10.jpg"
+            "cover": "./imagenes/covers/ci10.jpg"
         },
         {
             "id": 31,
             "category": "Novela gotica",
             "tittle": "Drácula",
             "author": "Bram Stoker",
-            "cover": "/imagenes/covers/ng1.jpg"
+            "cover": "./imagenes/covers/ng1.jpg"
         },
         {
             "id": 32,
             "category": "Novela gotica",
             "tittle": "Los misterios",
             "author": "Udolfo de Ann Radcliffe",
-            "cover": "/imagenes/covers/ng2.jpg"
+            "cover": "./imagenes/covers/ng2.jpg"
         },
         {
             "id": 33,
             "category": "Novela gotica",
             "tittle": "El monje",
             "author": "Matthew Gregory Lewis",
-            "cover": "/imagenes/covers/ng3.jpg"
+            "cover": "./imagenes/covers/ng3.jpg"
         },
         {
             "id": 34,
             "category": "Novela gotica",
             "tittle": "La abadía de Northanger",
             "author": "Jane Austen",
-            "cover": "/imagenes/covers/ng4.jpg"
+            "cover": "./imagenes/covers/ng4.jpg"
         },
         {
             "id": 35,
             "category": "Novela gotica",
             "tittle": "Melmoth el errabundo",
             "author": "Charles Robert Maturin",
-            "cover": "/imagenes/covers/ng5.jpg"
+            "cover": "./imagenes/covers/ng5.jpg"
         },
         {
             "id": 36,
             "category": "Novela gotica",
             "tittle": "El castillo de Otranto",
             "author": "Horace Walpole",
-            "cover": "/imagenes/covers/ng6.jpg"
+            "cover": "./imagenes/covers/ng6.jpg"
         },
         {
             "id": 37,
             "category": "Novela gotica",
             "tittle": "Entrevista con el vampiro",
             "author": "Anne Rice",
-            "cover": "/imagenes/covers/ng7.jpg"
+            "cover": "./imagenes/covers/ng7.jpg"
         },
         {
             "id": 38,
             "category": "Novela gotica",
             "tittle": "Frankenstein",
             "author": "Mary Shelley",
-            "cover": "/imagenes/covers/ng8.jpg"
+            "cover": "./imagenes/covers/ng8.jpg"
         },
         {
             "id": 39,
             "category": "Novela gotica",
             "tittle": "El extraño caso del Dr. Jekyll y Mr. Hyde",
             "author": "Robert Louis Stevenson",
-            "cover": "/imagenes/covers/ng9.jpg"
+            "cover": "./imagenes/covers/ng9.jpg"
         },
         {
             "id": 40,
             "category": "Novela gotica",
             "tittle": "El cuervo",
             "author": "Edgar allan poe",
-            "cover": "/imagenes/covers/ng10.jpg"
+            "cover": "./imagenes/covers/ng10.jpg"
         },
         {
             "id": 41,
             "category": "Novela policiaca",
             "tittle": "Los crímenes de la calle Morgue",
             "author": "Edgar Allan Poe",
-            "cover": "/imagenes/covers/np1.jpg"
+            "cover": "./imagenes/covers/np1.jpg"
         },
         {
             "id": 42,
             "category": "Novela policiaca",
             "tittle": "Estudio en escarlata",
             "author": "Arthur Conan Doyle",
-            "cover": "/imagenes/covers/np2.jpg"
+            "cover": "./imagenes/covers/np2.jpg"
         },
         {
             "id": 43,
             "category": "Novela policiaca",
             "tittle": "El misterioso caso de Styles",
             "author": "Agatha Christie",
-            "cover": "/imagenes/covers/np3.jpg"
+            "cover": "./imagenes/covers/np3.jpg"
         },
         {
             "id": 44,
             "category": "Novela policiaca",
             "tittle": "El halcón maltés",
             "author": "Dashiell Hammett",
-            "cover": "/imagenes/covers/np4.jpg"
+            "cover": "./imagenes/covers/np4.jpg"
         },
         {
             "id": 45,
             "category": "Novela policiaca",
             "tittle": "El talento de Mr. Ripley",
             "author": "Patricia Highsmith",
-            "cover": "/imagenes/covers/np5.jpg"
+            "cover": "./imagenes/covers/np5.jpg"
         },
         {
             "id": 46,
             "category": "Novela policiaca",
             "tittle": "El espía que surgió del frío",
             "author": "John le Carré",
-            "cover": "/imagenes/covers/np6.jpg"
+            "cover": "./imagenes/covers/np6.jpg"
         },
         {
             "id": 47,
             "category": "Novela policiaca",
             "tittle": "Los perros de Riga",
             "author": "Henning Mankell",
-            "cover": "/imagenes/covers/np7.jpg"
+            "cover": "./imagenes/covers/np7.jpg"
         },
         {
             "id": 48,
             "category": "Novela policiaca",
             "tittle": "La princesa de hielo",
             "author": "Camilla Läckberg",
-            "cover": "/imagenes/covers/np8.jpg"
+            "cover": "./imagenes/covers/np8.jpg"
         },
         {
             "id": 49,
             "category": "Novela policiaca",
             "tittle": "Tatuaje",
             "author": "Manuel Vázquez Montalbán",
-            "cover": "/imagenes/covers/np9.jpg"
+            "cover": "./imagenes/covers/np9.jpg"
         },
         {
             "id": 50,
             "category": "Novela policiaca",
             "tittle": "Triste, solitario y final",
             "author": "Osvaldo Soriano",
-            "cover": "/imagenes/covers/np10.jpg"
+            "cover": "./imagenes/covers/np10.jpg"
         },
         {
             "id": 51,
             "category": "Novela de terror",
             "tittle": "La invitada",
             "author": "Jennifer McMahon",
-            "cover": "/imagenes/covers/ndt1.jpg"
+            "cover": "./imagenes/covers/ndt1.jpg"
         },
         {
             "id": 52,
             "category": "Novela de terror",
             "tittle": "La señora March",
             "author": "Virginia Feito",
-            "cover": "/imagenes/covers/ndt2.jpg"
+            "cover": "./imagenes/covers/ndt2.jpg"
         },
         {
             "id": 53,
             "category": "Novela de terror",
             "tittle": "Reina del grito",
             "author": "Desirée de Fez",
-            "cover": "/imagenes/covers/ndt3.jpg"
+            "cover": "./imagenes/covers/ndt3.jpg"
         },
         {
             "id": 54,
             "category": "Novela de terror",
             "tittle": "Reinas del abismo",
             "author": "Varios Autores",
-            "cover": "/imagenes/covers/ndt4.jpg"
+            "cover": "./imagenes/covers/ndt4.jpg"
         },
         {
             "id": 55,
             "category": "Novela de terror",
             "tittle": "La habitación de Nona",
             "author": "Cristina Fernández Cubas",
-            "cover": "/imagenes/covers/ndt5.jpg"
+            "cover": "./imagenes/covers/ndt5.jpg"
         },
         {
             "id": 56,
             "category": "Novela de terror",
             "tittle": "Déjame entrar",
             "author": "John Ajvide Lindqvist",
-            "cover": "/imagenes/covers/ndt6.jpg"
+            "cover": "./imagenes/covers/ndt6.jpg"
         },
         {
             "id": 57,
             "category": "Novela de terror",
             "tittle": "El quinto hijo",
             "author": "Doris Lessing",
-            "cover": "/imagenes/covers/ndt7.jpg"
+            "cover": "./imagenes/covers/ndt7.jpg"
         },
         {
             "id": 58,
             "category": "Novela de terror",
             "tittle": "It (eso)",
             "author": "Stephen King",
-            "cover": "/imagenes/covers/ndt8.jpg"
+            "cover": "./imagenes/covers/ndt8.jpg"
         },
         {
             "id": 59,
             "category": "Novela de terror",
             "tittle": "El necrófilo",
             "author": "Gabrielle Wittkop",
-            "cover": "/imagenes/covers/ndt9.jpg"
+            "cover": "./imagenes/covers/ndt9.jpg"
         },
         {
             "id": 60,
             "category": "Novela de terror",
             "tittle": "La casa infernal",
             "author": "hard Matheson",
-            "cover": "/imagenes/covers/ndt10.jpg"
+            "cover": "./imagenes/covers/ndt10.jpg"
         },
         {
             "id": 61,
             "category": "Novela distopica",
             "tittle": "El año del diluvio",
             "author": "Margaret Atwood",
-            "cover": "/imagenes/covers/nd1.jpg"
+            "cover": "./imagenes/covers/nd1.jpg"
         },
         {
             "id": 62,
             "category": "Novela distopica",
             "tittle": "El Libro Azul",
             "author": "Nebo de Manon Steffan Ros",
-            "cover": "/imagenes/covers/nd2.jpg"
+            "cover": "./imagenes/covers/nd2.jpg"
         },
         {
             "id": 63,
             "category": "Novela distopic3",
             "tittle": "Klara y el sol ",
             "author": "Kazuo Ishiguro",
-            "cover": "/imagenes/covers/nd3.jpg"
+            "cover": "./imagenes/covers/nd3.jpg"
         },
         {
             "id": 64,
             "category": "Novela distopica",
             "tittle": "La discoteca de Gógol",
             "author": "Paavo Matsin",
-            "cover": "/imagenes/covers/nd4.jpg"
+            "cover": "./imagenes/covers/nd4.jpg"
         },
         {
             "id": 65,
             "category": "Novela distopica",
             "tittle": "Radicalizado",
             "author": "Cory Doctorow",
-            "cover": "/imagenes/covers/nd5.jpg"
+            "cover": "./imagenes/covers/nd5.jpg"
         },
         {
             "id": 66,
             "category": "Novela distopica",
             "tittle": "Oryx y Crake",
             "author": "Margaret Atwood",
-            "cover": "/imagenes/covers/nd6.jpg"
+            "cover": "./imagenes/covers/nd6.jpg"
         },
         {
             "id": 67,
             "category": "Novela distopica",
             "tittle": "El año de gracia",
             "author": "Kim Liggett",
-            "cover": "/imagenes/covers/nd7.jpg"
+            "cover": "./imagenes/covers/nd7.jpg"
         },
         {
             "id": 68,
             "category": "Novela distopica",
             "tittle": "La parábola del sembrador",
             "author": "Octavia E. Butler",
-            "cover": "/imagenes/covers/nd8.jpg"
+            "cover": "./imagenes/covers/nd8.jpg"
         },
         {
             "id": 69,
             "category": "Novela fantastica",
             "tittle": "Elantris",
             "author": "Brandon Sanderson",
-            "cover": "/imagenes/covers/nf1.jpg"
+            "cover": "./imagenes/covers/nf1.jpg"
         },
         {
             "id": 70,
             "category": "Novela fantastica",
             "tittle": "Los hijos",
             "author": "Anansí de Neil Gaiman",
-            "cover": "/imagenes/covers/nf2.jpg"
+            "cover": "./imagenes/covers/nf2.jpg"
         },
         {
             "id": 71,
             "category": "Novela fantastica",
             "tittle": "El ojo del mundo",
             "author": "Robert Jordan",
-            "cover": "/imagenes/covers/nf3.jpg"
+            "cover": "./imagenes/covers/nf3.jpg"
         },
         {
             "id": 72,
             "category": "Novela fantastica",
             "tittle": "Los jardines de la Luna",
             "author": "Steven Erikson",
-            "cover": "/imagenes/covers/nf4.jpg"
+            "cover": "./imagenes/covers/nf4.jpg"
         },
         {
             "id": 73,
             "category": "Novela fantastica",
             "tittle": "El libro fantástico",
             "author": "Tony DiTerlizzi y Holly Black",
-            "cover": "/imagenes/covers/nf5.jpg"
+            "cover": "./imagenes/covers/nf5.jpg"
         },
         {
             "id": 74,
             "category": "Novela fantastica",
             "tittle": "Alicia en el pais de las maravillas",
             "author": "Lewis Carroll",
-            "cover": "/imagenes/covers/nf6.jpg"
+            "cover": "./imagenes/covers/nf6.jpg"
         },
         {
             "id": 75,
             "category": "Novela fantastica",
             "tittle": "Neverwhere",
             "author": "Neil Gaiman",
-            "cover": "/imagenes/covers/nf7.jpg"
+            "cover": "./imagenes/covers/nf7.jpg"
         },
         {
             "id": 76,
             "category": "Novela fantastica",
             "tittle": "La arruga en el tiempo",
             "author": "Madeleine L'engle",
-            "cover": "/imagenes/covers/nf8.jpg"
+            "cover": "./imagenes/covers/nf8.jpg"
         },
         {
             "id": 77,
             "category": "Novela fantastica",
             "tittle": "Historias de terramar",
             "author": "Ursula K. Le Guin",
-            "cover": "/imagenes/covers/nf9.jpg"
+            "cover": "./imagenes/covers/nf9.jpg"
         },
         {
             "id": 78,
             "category": "Novela fantastica",
             "tittle": "El descubrimiento de las brujas",
             "author": "Deborah Harkness",
-            "cover": "/imagenes/covers/nf10.jpg"
+            "cover": "./imagenes/covers/nf10.jpg"
         }
     ]
 }
