@@ -58,7 +58,11 @@
     }
 
     /*TERMINA ABOUT*/
-
+    /*registro*/
+    .registro-container .registro-datos {
+        height: fit-content;
+      }
+   
 }
 
 @media only screen and (max-width: 700px) {
@@ -389,5 +393,9 @@
         font-size: 1.2em;
         font-weight: lighter;
       }
-
+      .registro-container .registro-datos {
+        width: fit-content;
+        margin-right: 30px;
+        height: fit-content;
+      }
 }
