@@ -384,9 +384,10 @@
 
     /*termina About*/
     /*contacto*/
-    .registro-main {
-        grid-template-rows: 0fr 1fr 2.8fr;
-    }
-
+    .texto-titulo h2 {
+       
+        font-size: 1.2em;
+        font-weight: lighter;
+      }
 
 }

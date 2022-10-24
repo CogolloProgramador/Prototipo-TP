@@ -299,7 +299,7 @@ h1 {
 .registro-main {
   background-image: linear-gradient(to right, #750800 75%, #750800);
  display: grid;
-grid-template-columns: 1fr 1fr;
+grid-template-columns: 1fr;
 grid-template-rows: 0fr 1fr 3.4fr;
 
 }
@@ -318,8 +318,7 @@ grid-template-rows: 0fr 1fr 3.4fr;
   align-items: center;
   text-align: center;
   margin-bottom: 25px;
-  grid-column-start: 1;
-  grid-column-end: 3;
+  
 }
 
 .texto-titulo h1{
